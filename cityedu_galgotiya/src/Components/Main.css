@@ -30,30 +30,30 @@ body {
   height: 100vh;
 }
 .head-text-of-page {
-  font-size: 900%;
+  font-size: 850%;
   color: #f6ca10;
   margin-bottom: -3rem;
   font-weight: 600;
   text-shadow: black 4px 4px 8px;
 }
 .second-head-text-of-page {
-  font-size: 420%;
+  font-size: 500%;
   font-weight: 600;
   text-shadow: black 4px 4px 8px;
 }
 
 .span-text-of-page {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: serif;
   text-shadow: black 4px 4px 8px;
 }
 .span-text-of-page-two {
   margin-top: 2rem;
-  font-size: 3.5rem;
-  margin-left: 5rem;
+  font-size: 2rem;
+  margin-left: 12rem;
   text-align: center;
   background-color: red;
-  width: 80%;
+  width: 50%;
   font-family: serif;
   text-shadow: black 4px 4px 8px;
 }
@@ -67,7 +67,7 @@ body {
   padding: 2% 2%;
   background-color: #1ca1da;
   color: white;
-  text-shadow: black 2px 2px 6px;
+  text-shadow: rgb(113, 109, 109) 2px 2px 6px;
   /* border: 1px solid black; */
 }
 .overview-image {

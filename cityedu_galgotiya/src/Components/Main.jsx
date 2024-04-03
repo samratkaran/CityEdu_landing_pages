@@ -19,7 +19,7 @@ const Main = () => {
         <div className="row main-head-text-of-landing-page">
           <div className="col-md-8 text-white">
             <p className="head-text-of-page">GALGOTIAS </p>
-            <p className="second-head-text-of-page"> UNIVERSITY, BANGALORE</p>
+            <p className="second-head-text-of-page"> UNIVERSITY, NOIDA</p>
             <p className="span-text-of-page">
               Discover Your Path to Success at Galgotias University.
             </p>
@@ -154,26 +154,26 @@ const Main = () => {
                   <CourseCard
                     CourseName={"MBA"}
                     DegreeName={"Master"}
-                    Duration={"3 Years"}
+                    Duration={"2 Years"}
                     imageUrl={require("../Assets/couese-image/MBA.jpg")}
                   />
 
                   <CourseCard
                     CourseName={"M.Sc (Fashion Design)"}
                     DegreeName={"Master"}
-                    Duration={"3 Years"}
+                    Duration={"2 Years"}
                     imageUrl={require("../Assets/couese-image/M.Sc..jpg")}
                   />
                   <CourseCard
                     CourseName={"MCA"}
                     DegreeName={"Master"}
-                    Duration={"3 Years"}
+                    Duration={"2 Years"}
                     imageUrl={require("../Assets/couese-image/MCA.jpg")}
                   />
                   <CourseCard
                     CourseName={"M.Com"}
                     DegreeName={"Master"}
-                    Duration={"3 Years"}
+                    Duration={"2 Years"}
                     imageUrl={require("../Assets/couese-image/MCom.png")}
                   />
                 </div>
@@ -203,8 +203,8 @@ const Main = () => {
                 <li class="c2" style={{ backgroundColor: "#a61a32" }}>
                   {" "}
                   <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
-                    <i class="fa fa-inr" aria-hidden="true"></i> 1.5{" "}
-                    <small style={{ fontSize: "1.1rem !important" }}>CPA</small>
+                    <i class="fa fa-inr" aria-hidden="true"></i> 1.5Cr{" "}
+                    <small style={{ fontSize: "1.1rem !important" }}>PA</small>
                   </span>{" "}
                   Highest Package{" "}
                 </li>
@@ -219,7 +219,7 @@ const Main = () => {
                   {" "}
                   <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
                     <i class="fa fa-inr" aria-hidden="true"></i> 5.25{" "}
-                    <small style={{ fontSize: "1.1rem !important" }}>CPA</small>
+                    <small style={{ fontSize: "1.1rem !important" }}>LPA</small>
                   </span>{" "}
                   Average Package{" "}
                 </li>
@@ -239,12 +239,11 @@ const Main = () => {
           className="row main-Top-Recruiters"
           style={{ overflowX: "hidden" }}
         >
-          {/* <div className="col-md-12 Top-Recruiters">
+          <div className="col-md-12 Top-Recruiters">
             <img src={require("../Assets/slide-image/01.png")} alt="" />
-            <img src={require("../Assets/slide-image/19.png")} alt="" />
-            <img src={require("../Assets/slide-image/Capgemini.png")} alt="" />
+            <img src={require("../Assets/slide-image/06.png")} alt="" />
             <img
-              src={require("../Assets/slide-image/Celebal-Technologies.jpeg")}
+              src={require("../Assets/slide-image/Celebal Technologies.jpeg")}
               alt=""
             />
             <img
@@ -252,18 +251,20 @@ const Main = () => {
               alt=""
             />
             <img
-              src={require("../Assets/slide-image/L&T Technology Service.jpeg")}
+              src={require("../Assets/slide-image/HCL Technologies.png")}
               alt=""
             />
+            <img
+              src={require("../Assets/slide-image/L&T Technology Services.jpeg")}
+              alt=""
+            />
+            <img src={require("../Assets/slide-image/MindTree.jpeg")} alt="" />
             <img src={require("../Assets/slide-image/Skolar.png")} alt="" />
+            <img src={require("../Assets/slide-image/TCS.png")} alt="" />
             <img src={require("../Assets/slide-image/congnizent.jpg")} alt="" />
-            <img src={require("../Assets/slide-image/hcl.png")} alt="" />
-            <img src={require("../Assets/slide-image/mindtree.jpeg")} alt="" />
-            <img src={require("../Assets/slide-image/mtx.png")} alt="" />
             <img src={require("../Assets/slide-image/01.png")} alt="" />
-            <img src={require("../Assets/slide-image/19.png")} alt="" />
-            <img src={require("../Assets/slide-image/Capgemini.png")} alt="" />
-          </div> */}
+            <img src={require("../Assets/slide-image/06.png")} alt="" />
+          </div>
         </div>
         <Bounce duration={1000}>
           <div className="row main-contact-us mt-5 mb-5">
@@ -285,7 +286,7 @@ const Main = () => {
           </div>
         </Bounce>
 
-        <HeadText value="Why Choose Galgotiyas University?" />
+        <HeadText value="Why Choose Galgotias University?" />
         <div className="row d-flex justify-content-center align-items-center ">
           <div className="col-md-4 d-none d-md-block m-auto">
             <img
