@@ -16,15 +16,20 @@ img {
   width: 25%;
   margin: 1% 0%;
 }
-span {
+.heder-of-city-guidde span {
   font-size: 200%;
   font-weight: 600;
   padding-right: 2rem;
 }
 
 @media only screen and (max-width: 768px) {
-  span {
-    font-size: 115%;
-    padding-right: 40px;
+  .heder-of-city-guidde span {
+    font-size: 105%;
+    padding-right: 20px;
+  }
+
+  .heder-of-city-guidde img {
+    width: 35%;
+    margin: 1% 0%;
   }
 }

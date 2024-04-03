@@ -22,7 +22,7 @@ body {
   gap: 6rem;
   align-items: center;
   background-image: linear-gradient(to bottom, #00000062, #00000097),
-    url(../Assets/full-length-portrait-student-girl-against-brick-wall-with-textbooks\ \(1\).jpg);
+    url(../Assets/main-back.jpg);
   /* background-image: url(./Assets/Ayurvedic-Medicine-Manufacturer-in-Kanpur.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -385,19 +385,29 @@ p {
 
   .head-text-of-page {
     padding-top: 4rem;
-    font-size: 550%;
-    margin-bottom: -2rem;
+    font-size: 350%;
+    margin-bottom: -1rem;
     font-weight: 600;
     text-shadow: black 4px 4px 8px;
   }
   .second-head-text-of-page {
-    font-size: 300%;
+    font-size: 160%;
     font-weight: 600;
+    text-shadow: black 4px 4px 8px;
+  }
+  .span-text-of-page-two {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-align: center;
+    background-color: red;
+    width: 90%;
+    font-family: serif;
     text-shadow: black 4px 4px 8px;
   }
 
   .span-text-of-page {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: black 4px 4px 8px;
   }
