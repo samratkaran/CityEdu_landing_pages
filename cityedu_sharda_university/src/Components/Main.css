@@ -383,6 +383,7 @@ p {
   }
 
   .head-text-of-page {
+    padding-left: 1rem;
     padding-top: 6rem;
     font-size: 320%;
     margin-bottom: 0rem;
@@ -396,16 +397,17 @@ p {
   }
 
   .span-text-of-page {
+    padding-left: 1rem;
     font-size: 1rem;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: black 4px 4px 8px;
   }
   .span-text-of-page-two {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: serif;
     text-shadow: black 4px 4px 8px;
     background-color: red;
-    width: 70%;
+    width: 90%;
     text-align: center;
     margin: auto;
   }
