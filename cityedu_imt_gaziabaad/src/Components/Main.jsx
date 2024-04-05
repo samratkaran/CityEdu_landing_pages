@@ -296,7 +296,7 @@ const Main = () => {
         </div>
 
         <HeadText value={"Campus Life"} />
-        <p className="col-md-10 m-auto ">
+        <p className="col-md-10 m-auto ps-3 pe-3 ">
           IMT's campus features 1000 Wi-Fi enabled nodes, backed by a 10 Gbps
           fibre network and 420 Mbps Metro Ethernet connectivity, upgradable to
           1 Gbps. With 13 enterprise-level servers, faculty receive
