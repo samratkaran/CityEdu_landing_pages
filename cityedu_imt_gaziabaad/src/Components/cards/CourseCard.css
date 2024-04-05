@@ -28,8 +28,8 @@
 
 @media only screen and (max-width: 768px) {
   .course-card-main {
-    width: 22rem;
-    height: 30rem;
+    width: 22rem !important;
+    height: 36rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -37,5 +37,22 @@
     border: 1px solid rgb(229, 207, 207);
     text-align: left;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .all-data-of-course {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .inner-cont {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .course-card-main img {
+    width: 22rem !important;
+    margin: auto;
+    height: 15rem;
   }
 }
