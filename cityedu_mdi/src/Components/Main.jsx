@@ -79,7 +79,7 @@ const Main = () => {
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management - Business Analytics.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementBusiness Analytics.jpg")}
                 />
                
 
@@ -89,7 +89,7 @@ const Main = () => {
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management - Human Resource Management (PGDM-HRM).jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementHuman Resource Management (PGDM-HRM).jpg")}
                 />
                 <CourseCard
                   CourseName={
@@ -97,7 +97,7 @@ const Main = () => {
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management - International Business (PGDM-IB).jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementInternational Business.jpg")}
                 />
                 <CourseCard
                   CourseName={"PGDM (Online) Programme"}
@@ -111,7 +111,7 @@ const Main = () => {
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management – Business Management (PGDM-BM).jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementBusiness Management.jpg")}
                 />
                 <CourseCard
                   CourseName={
@@ -119,7 +119,7 @@ const Main = () => {
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management – Public Policy and Management (PGDM-PPM).jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementPublic Policy and Management.jpg")}
                 />
                 <CourseCard
                   CourseName={"Fellow Programme in Management"}
