@@ -22,9 +22,9 @@ const Main = () => {
             <p className="head-text-of-page">
               IMT, <b className="second-text"> Ghaziabad </b>{" "}
             </p>
-            <p className="second-head-text-of-page">
+            {/* <p className="second-head-text-of-page">
               Institue of Managment Technology{" "}
-            </p>
+            </p> */}
             <p className="span-text-of-page">
               Are you looking to give wings to your career in Management
               Studies? If So, then IMT Ghaziabad is your answer.
@@ -39,7 +39,7 @@ const Main = () => {
       </Fade>
       <div className="main-container mb-5">
         <HeadText value={"overview"}></HeadText>
-        <div className="row main-overview-of-page">
+       <Fade delay={100} direction="up"> <div className="row main-overview-of-page">
           <div className="col-md-4">
             <img
               className="overview-image"
@@ -65,82 +65,61 @@ const Main = () => {
               sports facilities.
             </p>
           </div>
-        </div>
+        </div></Fade>
         <HeadText value={"Courses Offered"} />
         <div className="row">
           <div className="col-md-12 m-auto h-auto ">
             <div className="pos-grad-program row">
-              <h1 className="col-md-10 m-auto mb-5">
-                Post Graduate Programmes
-              </h1>
-
               <div className="bachelor-and-section col-md-12">
                 <CourseCard
-                  CourseName={
-                    "Post Graduate Diploma in Management - Business Analytics"
-                  }
+                  CourseName={"PGDM"}
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Business Administration.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management (PGDM.jpeg")}
                 />
                 <CourseCard
-                  CourseName={"Post Graduate Diploma in Management (PGDM)"}
+                  CourseName={"PGDM Marketing"}
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Commerce.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementPublic Policy and Management.jpg")}
                 />
 
                 <CourseCard
-                  CourseName={
-                    "Post Graduate Diploma in Management - Human Resource Management (PGDM-HRM)"
-                  }
+                  CourseName={"PGDM Dual Country Programme"}
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Science(Hons.).jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementInternational Business.jpg")}
                 />
                 <CourseCard
-                  CourseName={
-                    "Post Graduate Diploma in Management - International Business (PGDM-IB)"
-                  }
+                  CourseName={"PGDM Banking and Financial Services"}
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/B.Ed.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementBusiness Analytics.jpg")}
                 />
                 <CourseCard
-                  CourseName={"PGDM (Online) Programme"}
+                  CourseName={"PGDM Finance"}
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Computer Applications.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementBusiness Management.jpg")}
                 />
-              </div>
-            </div>
-            <div className="pos-grad-program row">
-              <h1 className="col-md-10 m-auto mb-5 ">
-                Executive Post Graduate Programmes & Fellowship Programmes
-              </h1>
 
-              <div className="bachelor-and-section col-md-12">
                 <CourseCard
-                  CourseName={
-                    "Post Graduate Diploma in Management – Business Management (PGDM-BM)"
-                  }
+                  CourseName={"PGDM Part-Time"}
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Business Administration.jpg")}
+                  imageUrl={require("../Assets/couese-image/PGDM (Online) Programme.jpeg")}
                 />
                 <CourseCard
-                  CourseName={
-                    "Post Graduate Diploma in Management – Public Policy and Management (PGDM-PPM)"
-                  }
+                  CourseName={"Executive PGDM"}
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Commerce.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in ManagementHuman Resource Management (PGDM-HRM).jpg")}
                 />
                 <CourseCard
-                  CourseName={"Fellow Programme in Management"}
+                  CourseName={"FPM"}
                   DegreeName={"Bachelor"}
                   Duration={"4 Years"}
-                  imageUrl={require("../Assets/couese-image/B.Tech.jpg")}
+                  imageUrl={require("../Assets/couese-image/Fellow Programme in Management.jpg")}
                 />
               </div>
             </div>
@@ -374,7 +353,7 @@ const Main = () => {
         <HeadText value={"Ranks and Awards"} />
         <div
           className="row d-flex justify-content-center align-items-center gap-5"
-          style={{ flexWrap: "wrap", padding: "2% 2%" }}
+          style={{ flexWrap: "wrap", padding: "1% 5%" }}
         >
           <div className="col-md-5 ranks ">
             <h2 className="pb-4"> Financial Times</h2>
