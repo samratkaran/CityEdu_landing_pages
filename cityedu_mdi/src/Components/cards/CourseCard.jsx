@@ -16,12 +16,12 @@ const CourseCard = ({ imageUrl, CourseName, DegreeName, Duration }) => {
             <img src={imageUrl} alt="" />
             <div className="ps-3 pt-2 d-flex flex-column gap-2">
               <h2 className="pt-3">{CourseName}</h2>
-              <p>
+              {/* <p>
                 <FcGraduationCap /> Degree: {DegreeName}
               </p>
               <p>
                 <FcOvertime /> Duration: {Duration}
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="all-data-of-course pb-2">

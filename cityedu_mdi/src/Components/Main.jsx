@@ -21,9 +21,9 @@ const Main = () => {
             <p className="head-text-of-page">
               MDI, <b className="second-text"> Gurugram </b>{" "}
             </p>
-            <p className="second-head-text-of-page">
+            {/* <p className="second-head-text-of-page">
               Managment Development Institue
-            </p>
+            </p> */}
             <p className="span-text-of-page">
               Join the league of future leaders at MDI Gurgaon!
             </p>
@@ -37,7 +37,7 @@ const Main = () => {
       </Fade>
       <div className="main-container mb-5">
         <HeadText value={"overview"}></HeadText>
-        <div className="row main-overview-of-page">
+        <Fade direction="up" delay={200}><div className="row main-overview-of-page">
           <div className="col-md-4">
             <img
               className="overview-image"
@@ -57,7 +57,7 @@ const Main = () => {
               Gurgaon now!
             </p>
           </div>
-        </div>
+        </div></Fade>
         <HeadText value={"Courses Offered"} />
         <div className="row">
           <div className="col-md-12 m-auto h-auto ">
@@ -67,75 +67,72 @@ const Main = () => {
               </h1>
 
               <div className="bachelor-and-section col-md-12">
+              <CourseCard
+                  CourseName={"PGDM"}
+                  DegreeName={"Bachelor"}
+                  Duration={"3 Years"}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management (PGDM.jpeg")}
+                />
                 <CourseCard
                   CourseName={
-                    "Post Graduate Diploma in Management - Business Analytics"
+                    "PGDM - Business Analytics"
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Business Administration.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management - Business Analytics.jpg")}
                 />
-                <CourseCard
-                  CourseName={"Post Graduate Diploma in Management (PGDM)"}
-                  DegreeName={"Bachelor"}
-                  Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Commerce.jpg")}
-                />
+               
 
                 <CourseCard
                   CourseName={
-                    "Post Graduate Diploma in Management - Human Resource Management (PGDM-HRM)"
+                    "PGDM - Human Resource Management"
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Science(Hons.).jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management - Human Resource Management (PGDM-HRM).jpg")}
                 />
                 <CourseCard
                   CourseName={
-                    "Post Graduate Diploma in Management - International Business (PGDM-IB)"
+                    "PGDM - International Business "
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/B.Ed.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management - International Business (PGDM-IB).jpg")}
                 />
                 <CourseCard
                   CourseName={"PGDM (Online) Programme"}
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Computer Applications.jpg")}
+                  imageUrl={require("../Assets/couese-image/PGDM (Online) Programme.jpeg")}
                 />
-              </div>
-            </div>
-            <div className="pos-grad-program row">
-              <h1 className="col-md-10 m-auto mb-5 ">
-                Executive Post Graduate Programmes & Fellowship Programmes
-              </h1>
-
-              <div className="bachelor-and-section col-md-12">
-                <CourseCard
+                 <CourseCard
                   CourseName={
-                    "Post Graduate Diploma in Management – Business Management (PGDM-BM)"
+                    "PGDM – Business Management "
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Business Administration.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management – Business Management (PGDM-BM).jpg")}
                 />
                 <CourseCard
                   CourseName={
-                    "Post Graduate Diploma in Management – Public Policy and Management (PGDM-PPM)"
+                    "PGDM – Public Policy and Management "
                   }
                   DegreeName={"Bachelor"}
                   Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/Bachelor of Commerce.jpg")}
+                  imageUrl={require("../Assets/couese-image/Post Graduate Diploma in Management – Public Policy and Management (PGDM-PPM).jpg")}
                 />
                 <CourseCard
                   CourseName={"Fellow Programme in Management"}
                   DegreeName={"Bachelor"}
                   Duration={"4 Years"}
-                  imageUrl={require("../Assets/couese-image/B.Tech.jpg")}
+                  imageUrl={require("../Assets/couese-image/Fellow Programme in Management.jpg")}
                 />
+              
               </div>
             </div>
+        
+               
+            
           </div>
         </div>
 
@@ -154,22 +151,23 @@ const Main = () => {
 
             <div class="Students-component ">
               <ul className="boxes-of-palcement d-flex justify-content-center gap-5">
-                <li class="c1" style={{ backgroundColor: "#a61a32" }}>
+               <Fade delay={200}> <li class="c1" style={{ backgroundColor: "#a61a32" }}>
                   {" "}
                   <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
                     100+
                   </span>{" "}
                   Total No. of Offers
-                </li>
-                <li class="c2" style={{ backgroundColor: "#034ea2" }}>
+                </li></Fade>
+               <Fade delay={500}> <li class="c2" style={{ backgroundColor: "#034ea2" }}>
                   {" "}
                   <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
                     <i class="fa fa-inr" aria-hidden="true"></i> 60{" "}
                     <small style={{ fontSize: "1.1rem !important" }}>LPA</small>
                   </span>{" "}
                   Highest Package{" "}
-                </li>
-                <li class="c4" style={{ backgroundColor: "#00abe6" }}>
+                </li></Fade>
+               <Fade  delay={800}>
+               <li class="c4" style={{ backgroundColor: "#00abe6" }}>
                   {" "}
                   <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
                     <i class="fa fa-inr" aria-hidden="true"></i> 26.42{" "}
@@ -177,6 +175,8 @@ const Main = () => {
                   </span>
                   Average Package for PGDM & PGDM IB{" "}
                 </li>
+               </Fade>
+                <Fade  delay={1000}>
                 <li class="c4" style={{ backgroundColor: "#0011e6" }}>
                   {" "}
                   <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
@@ -185,6 +185,8 @@ const Main = () => {
                   </span>
                   Average package for PGDM HRM
                 </li>
+                </Fade>
+                <Fade  delay={1200}>
                 <li class="c2" style={{ backgroundColor: "#da2032" }}>
                   {" "}
                   <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
@@ -193,6 +195,7 @@ const Main = () => {
                   </span>{" "}
                   Highest package for PGDM BM
                 </li>
+                </Fade>
               </ul>
             </div>
           </div>
