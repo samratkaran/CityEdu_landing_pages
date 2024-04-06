@@ -1,6 +1,6 @@
 .course-card-main {
   width: 28rem !important;
-  height: 27rem;
+  height: 28rem;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -25,12 +25,15 @@
 .course-card-main button {
   display: flex;
   justify-content: center;
+  font-size:17px;
+  padding: 3% 1% ;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
   .course-card-main {
-    width: 22rem;
-    height: 30rem;
+    width: 22rem !important;
+    height: 26rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -38,5 +41,24 @@
     border: 1px solid rgb(229, 207, 207);
     text-align: left;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .all-data-of-course {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .course-card-main img {
+    width: 22rem;
+    margin: auto;
+    height: 15rem;
+  }
+  .course-card-main button {
+    display: flex;
+    justify-content: center;
+    font-size:17px;
+    padding: 3% 1% ;
+    margin-bottom: 1rem;
   }
 }

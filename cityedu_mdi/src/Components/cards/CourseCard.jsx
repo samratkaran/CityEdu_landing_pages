@@ -1,7 +1,7 @@
 import React from "react";
 import "./CourseCard.css";
-import { FcGraduationCap } from "react-icons/fc";
-import { FcOvertime } from "react-icons/fc";
+// import { FcGraduationCap } from "react-icons/fc";
+// import { FcOvertime } from "react-icons/fc";
 import { useState } from "react";
 import Modal from "../Modal/Modal";
 import { FaCircleArrowRight } from "react-icons/fa6";

@@ -62,9 +62,9 @@ const Main = () => {
         <div className="row">
           <div className="col-md-12 m-auto h-auto ">
             <div className="pos-grad-program row">
-              <h1 className="col-md-10 m-auto mb-5">
+              {/* <h1 className="col-md-10 m-auto mb-5">
                 Post Graduate Programmes
-              </h1>
+              </h1> */}
 
               <div className="bachelor-and-section col-md-12">
               <CourseCard
@@ -256,7 +256,7 @@ const Main = () => {
           </div>
         </Bounce>
 
-        <HeadText value="Why Choose Galgotiyas University?" />
+        <HeadText value="Why Choose MDI ?" />
         <div className="row d-flex justify-content-center align-items-center ">
           <div className="col-md-4 d-none d-md-block m-auto">
             <img
@@ -298,7 +298,7 @@ const Main = () => {
         </div>
 
         <HeadText value={"Campus Life"} />
-        <p className="col-md-11 m-auto ">
+        <p className="col-md-10 m-auto p-4 ">
           MDI's sprawling campus, spanning 35 acres in Gurgaon, is characterized
           by red brick buildings and lush greenery. Located approximately 12 km
           from the Indira Gandhi International Airport in New Delhi, MDI offers
