@@ -23,10 +23,10 @@ const Main = () => {
             </p>
             {/* <p className="second-text">  </p> */}
             <p className="second-head-text-of-page">
-            School Of Law
+            College Of Law
             </p>
             <p className="span-text-of-page">
-              Join the league of future leaders at MS Ramaiah!
+              Visinory Ideas that transformed millions of lives!
             </p>
             <p className="span-text-of-page-two ">Admission Open 2024-25</p>
           </div>
@@ -38,7 +38,7 @@ const Main = () => {
       </Fade>
       <div className="main-container mb-5">
         <HeadText value={"overview"}></HeadText>
-        <Fade direction="up" delay={200}><div className="row main-overview-of-page">
+        <Fade direction="down" delay={100}><div className="row main-overview-of-page">
           <div className="col-md-4">
             <img
               className="overview-image"

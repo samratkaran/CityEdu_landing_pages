@@ -54,7 +54,7 @@ body {
   text-shadow: black 4px 4px 8px;
 }
 .span-text-of-page-two {
-  margin-top: 2rem;
+  margin-top: 4rem;
   font-size: 2.5rem;
   margin-left: 9rem;
   text-align: center;
@@ -78,7 +78,7 @@ body {
 }
 .overview-image {
   width: 100%;
-  box-shadow: rgba(240, 240, 240, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .App {
