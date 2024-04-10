@@ -14,6 +14,7 @@ const Main = () => {
   //   setActiveSection(section);
   // };
   return (
+    // commnet
     <>
       <Fade cascade damping={0.5}>
         <div className="row main-head-text-of-landing-page">
