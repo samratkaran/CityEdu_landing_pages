@@ -9,7 +9,7 @@ const Form = () => {
     phone: "",
     course: "",
     location: "",
-    college: "Ramaiah School of Law Admission",
+    college: "Ramaiah College of Law Admission",
   });
 
   const [showform, setShowForm] = useState(true);

@@ -201,7 +201,7 @@ const Main = () => {
               src={require("../Assets/slide-image/Asian Paints.png")}
               alt=""
             />
-            <img src={require("../Assets/slide-image/Axis Bank.jpeg")} alt="" />
+            <img src={require("../Assets/slide-image/Axis Bank.jpeg")} alt="" /> 
           </div>
         </div>
         <Bounce duration={1000}>
