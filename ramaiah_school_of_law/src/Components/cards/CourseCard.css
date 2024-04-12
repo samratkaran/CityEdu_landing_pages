@@ -1,6 +1,6 @@
 .course-card-main {
-  width: 28rem !important;
-  height: 35rem;
+  width: 23rem !important;
+  height: 32rem;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -18,7 +18,7 @@
   flex-wrap: wrap;
 }
 .course-card-main img {
-  width: 28rem;
+  width: 23rem;
   margin: auto;
   height: 15rem;
 }

@@ -120,7 +120,7 @@ body {
 .bachelor-and-section {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 2rem;
   flex-wrap: wrap;
   height: auto;
@@ -157,13 +157,17 @@ body {
   padding-right: 2rem;
 }
 .why-chose-reva li {
+  width: 100%;
   /* border: 1px solid red; */
-  width: 25rem;
+  /* width: 25rem; */
   /* list-style: none; */
   height: 6rem;
   text-align: center;
-  padding: 2% 2%;
-  background-color: #0096a1;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  background-color: #7396aa;
   color: white;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -440,7 +444,33 @@ p {
     position: relative;
   }
   .Top-Recruiters img {
-    width: 30%;
+    width: 50%;
     height: 50%;
   }
+
+  .why-chose-reva li {
+    width: 100%;
+    /* border: 1px solid red; */
+    /* width: 25rem; */
+    /* list-style: none; */
+    height: auto;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    background-color: #7396aa;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 1.3rem;
+  }
+
+  .approval-and-acredation img {
+    width: 6rem;
+    height: 6rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0rem 7px;
+    object-fit: contain;
+}
 }

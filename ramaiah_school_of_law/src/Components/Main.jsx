@@ -88,7 +88,7 @@ const Main = () => {
                 />
                 <CourseCard
                   CourseName={
-                    "LLM | Business and Trade Laws "
+                    "LLM "
                   }
                   DegreeName={"Master"}
                   Duration={"2 Years"}
@@ -104,7 +104,7 @@ const Main = () => {
           </div>
         </div>
 
-        <HeadText value={"Placement"} />
+        {/* <HeadText value={"Placement"} />
         <div className="row ">
           <div class="col-md-12 text-center ">
             <p>
@@ -167,41 +167,28 @@ const Main = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <HeadText value={"top Recruiters"} />
         <div
           className="row main-Top-Recruiters"
           style={{ overflowX: "hidden" }}
         >
           <div className="col-md-12 Top-Recruiters">
-            <img
-              src={require("../Assets/slide-image/American Express.png")}
-              alt=""
-            />
-            <img
-              src={require("../Assets/slide-image/Asian Paints.png")}
-              alt=""
-            />
-            <img src={require("../Assets/slide-image/Axis Bank.jpeg")} alt="" />
-            <img src={require("../Assets/slide-image/Deloitte.png")} alt="" />
-            <img src={require("../Assets/slide-image/Godrej.jpeg")} alt="" />
-            <img src={require("../Assets/slide-image/ITC.png")} alt="" />
-            <img
-              src={require("../Assets/slide-image/JP Morgan Chase & Co.jpeg")}
-              alt=""
-            />
-            <img src={require("../Assets/slide-image/KPMG.png")} alt="" />
-            <img src={require("../Assets/slide-image/PwC.jpeg")} alt="" />
-            <img src={require("../Assets/slide-image/amazone.png")} alt="" />
-            <img
-              src={require("../Assets/slide-image/American Express.png")}
-              alt=""
-            />
-            <img
-              src={require("../Assets/slide-image/Asian Paints.png")}
-              alt=""
-            />
-            <img src={require("../Assets/slide-image/Axis Bank.jpeg")} alt="" /> 
+            
+            <img src={require("../Assets/slide-image/Athena Legal.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Legal Wise.jpeg")} alt="" /> 
+            <img src={require("../Assets/slide-image/Morae Global Corporation.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Pramata Legal.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Themis Group.jpeg")} alt="" /> 
+            <img src={require("../Assets/slide-image/Thiru & Thiru.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Thomson Reuters.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Trans-India Law Associates.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Zenith Lex and Company.jpeg")} alt="" /> 
+            <img src={require("../Assets/slide-image/Athena Legal.png")} alt="" />
+            
+            
+
+             
           </div>
         </div>
         <Bounce duration={1000}>
@@ -226,41 +213,31 @@ const Main = () => {
 
         <HeadText value="Why Choose MSRSL ?" />
         <div className="row d-flex justify-content-center align-items-center ">
-          <div className="col-md-4 d-none d-md-block m-auto">
+          {/* <div className="col-md-4 d-none d-md-block m-auto">
             <img
               src={require("../Assets/f14d6c0a5773675a110f0fbb4988efa6-removebg-preview.png")}
               alt=""
               className="why-chose-us-image"
             />
-          </div>
-          <div className="col-md-8 ">
+          </div> */}
+          <div className="col-md-11 ">
             <ul className="why-chose-reva">
               <Fade delay={200}>
-                <li>100% Placements</li>
+              <li>Several outstanding professionals also collaborate with IFIM as visiting faculty.</li>
               </Fade>
               <Fade delay={400}>
-                <li>Pioneer in International Accreditation</li>
+                <li>MSRCL conducts seminars, workshops, and guest lectures on contemporary legal topics to enhance students' knowledge and provide a platform for interaction with experts from the legal field.</li>
               </Fade>
 
               <Fade delay={600}>
-                <li>Prime Corporate Location</li>
+                <li>The college often organizes recruitment drives, inviting reputed law firms, companies, and government organizations to recruit students from law school.</li>
               </Fade>
               <Fade delay={800}>
-                <li>Global Exposure Opportunities</li>
-              </Fade>
-              <Fade delay={1000}>
-                <li>Extensive International Exchange Program</li>
-              </Fade>
+                
 
-              <Fade delay={1200}>
-                <li>Experienced Faculty Pool</li>
+                <li> It has a strong alumni network that includes lawyers, judges, and corporate executives. The alumni network can provide students with valuable networking opportunities and support.</li>
               </Fade>
-              <Fade delay={1400}>
-                <li>Leading Continuing Education School</li>
-              </Fade>
-              <Fade delay={1600}>
-                <li>Expansive 40-Acre Campus</li>
-              </Fade>
+             
             </ul>
           </div>
         </div>
