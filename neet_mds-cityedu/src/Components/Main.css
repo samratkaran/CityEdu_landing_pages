@@ -417,8 +417,8 @@ p {
 
   .head-text-of-page {
     padding-top: 4rem;
-    font-size: 340%;
-    margin-bottom: -1rem;
+    font-size: 280%;
+    margin-bottom: 1rem;
     font-weight: 600;
     text-shadow: black 4px 4px 8px;
   }
