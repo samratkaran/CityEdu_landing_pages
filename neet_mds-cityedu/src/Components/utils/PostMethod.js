@@ -10,3 +10,6 @@ export const handleSubmit = async (event, value) => {
   const responseData = await response.json();
   return responseData;
 };
+
+// API Url to send data on Email
+
