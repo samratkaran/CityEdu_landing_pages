@@ -15,7 +15,7 @@ body {
 }
 
 .main-head-text-of-landing-page {
-  padding-top: 4rem !important;
+  padding-top: 6rem !important;
   padding: 0% 2%;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@ body {
   height: 100vh;
 }
 .head-text-of-page {
-  font-size: 800%;
+  font-size: 600%;
   /* padding-bottom: -7rem; */
   color: #e25b19;
   margin-bottom: -2rem;
@@ -42,7 +42,7 @@ body {
   font-size: 100%;
 } */
 .second-head-text-of-page {
-  font-size: 550%;
+  font-size: 450%;
   margin-top: -2rem;
   font-weight: 600;
   text-shadow: black 4px 4px 8px;
@@ -55,16 +55,18 @@ body {
   gap: 2rem;
   /* font-size: 2rem; */
   font-family: serif;
+  margin-left: 1rem;
   text-shadow: black 4px 4px 8px;
 }
 .span-text-of-page button {
-  width: 14rem;
+  width: 10rem;
+
   font-size: 1.5rem;
 }
 .span-text-of-page-two {
   margin-top: 4rem;
   font-size: 2.5rem;
-  margin-left: 9rem;
+  margin-left: 4rem;
   text-align: center;
   background-color: red;
   width: 60%;
@@ -276,7 +278,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  width: 19rem;
+  width: 17rem;
   text-align: center;
   background-color: #0096a1b8;
   padding: 1% 1%;
