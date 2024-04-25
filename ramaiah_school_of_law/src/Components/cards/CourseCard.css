@@ -32,7 +32,7 @@
 
 @media only screen and (max-width: 768px) {
   .course-card-main {
-    width: 22rem !important;
+    width: 20rem !important;
     height: 33rem;
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +50,7 @@
     flex-wrap: wrap;
   }
   .course-card-main img {
-    width: 22rem;
+    width: 20rem;
     margin: auto;
     height: 15rem;
   }
