@@ -26,9 +26,11 @@ const Main = () => {
             <p className="second-head-text-of-page">
             College Of Law
             </p>
-            <p className="span-text-of-page">
-              Visinory Ideas that transformed millions of lives!
-            </p>
+            <div className="span-text-of-page">
+              <button className="btn btn-primary">BBA LLB</button>
+              <button className="btn btn-primary">B.Com LLB</button>
+              <button className="btn btn-primary">BA LLB</button>
+            </div>
             <p className="span-text-of-page-two ">Admission Open 2024-25</p>
           </div>
 
@@ -168,29 +170,6 @@ const Main = () => {
             </div>
           </div>
         </div> */}
-        <HeadText value={"top Recruiters"} />
-        <div
-          className="row main-Top-Recruiters"
-          style={{ overflowX: "hidden" }}
-        >
-          <div className="col-md-12 Top-Recruiters">
-            
-            <img src={require("../Assets/slide-image/Athena Legal.png")} alt="" /> 
-            <img src={require("../Assets/slide-image/Legal Wise.jpeg")} alt="" /> 
-            <img src={require("../Assets/slide-image/Morae Global Corporation.png")} alt="" /> 
-            <img src={require("../Assets/slide-image/Pramata Legal.png")} alt="" /> 
-            <img src={require("../Assets/slide-image/Themis Group.jpeg")} alt="" /> 
-            <img src={require("../Assets/slide-image/Thiru & Thiru.png")} alt="" /> 
-            <img src={require("../Assets/slide-image/Thomson Reuters.png")} alt="" /> 
-            <img src={require("../Assets/slide-image/Trans-India Law Associates.png")} alt="" /> 
-            <img src={require("../Assets/slide-image/Zenith Lex and Company.jpeg")} alt="" /> 
-            <img src={require("../Assets/slide-image/Athena Legal.png")} alt="" />
-            
-            
-
-             
-          </div>
-        </div>
         <Bounce duration={1000}>
           <div className="row main-contact-us mt-5 mb-5">
             {show ? <Modal cancel={setShow} /> : null}
@@ -209,9 +188,11 @@ const Main = () => {
               </button>
             </div>
           </div>
-        </Bounce>
+        </Bounce> 
+        
+        
 
-        <HeadText value="Why Choose MSRSL ?" />
+        <HeadText value="Why MS Ramaiah College of Law ?" />
         <div className="row d-flex justify-content-center align-items-center ">
           {/* <div className="col-md-4 d-none d-md-block m-auto">
             <img
@@ -223,7 +204,7 @@ const Main = () => {
           <div className="col-md-11 ">
             <ul className="why-chose-reva">
               <Fade delay={200}>
-              <li>Several outstanding professionals also collaborate with IFIM as visiting faculty.</li>
+              <li>Several outstanding professionals also collaborate with MS Ramaiah College of Law as visiting faculty.</li>
               </Fade>
               <Fade delay={400}>
                 <li>MSRCL conducts seminars, workshops, and guest lectures on contemporary legal topics to enhance students' knowledge and provide a platform for interaction with experts from the legal field.</li>
@@ -273,6 +254,30 @@ const Main = () => {
             </div>
           </div>
         </Fade>
+
+        <HeadText value={"top Recruiters"} />
+        <div
+          className="row main-Top-Recruiters"
+          style={{ overflowX: "hidden" }}
+        >
+          <div className="col-md-12 Top-Recruiters">
+            
+            <img src={require("../Assets/slide-image/Athena Legal.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Legal Wise.jpeg")} alt="" /> 
+            <img src={require("../Assets/slide-image/Morae Global Corporation.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Pramata Legal.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Themis Group.jpeg")} alt="" /> 
+            <img src={require("../Assets/slide-image/Thiru & Thiru.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Thomson Reuters.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Trans-India Law Associates.png")} alt="" /> 
+            <img src={require("../Assets/slide-image/Zenith Lex and Company.jpeg")} alt="" /> 
+            <img src={require("../Assets/slide-image/Athena Legal.png")} alt="" />
+            
+            
+
+             
+          </div>
+        </div>
         <HeadText value="Approvals and Accreditations" />
         <Fade delay={250}>
           <div className="row main-approval-and-acredation">
