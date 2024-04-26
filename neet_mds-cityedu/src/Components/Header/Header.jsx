@@ -9,7 +9,7 @@ const Header = () => {
         <div class="col-12 heder-of-city-guidde">
           <img src={require("../../Assets/City-edu.png")} alt="" />
           <span >
-            <FaPhoneAlt /> (+91) 9427 700 700
+            <FaPhoneAlt /> (+91) 953 825 5512
           </span>
         </div>
       </div>

@@ -8,8 +8,8 @@
   align-items: center;
   gap: 1rem;
   animation: revealAnimationright 2s forwards;
-  padding: 2rem 0;
-  margin-bottom: 1rem;
+  padding: 1rem 0rem;
+  /* margin-bottom: 1rem; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .form-of-landing-page button {

@@ -15,7 +15,7 @@ body {
 }
 
 .main-head-text-of-landing-page {
-  padding-top: 4rem !important;
+  padding-top: 7rem !important;
   padding: 0% 2%;
   display: flex;
   justify-content: center;
@@ -30,36 +30,48 @@ body {
   height: 100vh;
 }
 .head-text-of-page {
-  font-size: 800%;
+  font-size: 560%;
   /* padding-bottom: -7rem; */
   color: #7ab4f8;
   margin-bottom: 1rem;
   font-weight: 600;
   text-shadow: rgb(0, 0, 0) 4px 4px 8px;
 }
-/* .second-text {
-  padding-top: -4rem;
-  font-size: 100%;
-} */
+.second-text {
+  /* padding-top: -4rem; */
+  /* font-size: 100%; */
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .second-head-text-of-page {
-  font-size: 670%;
+  font-size: 470%;
   margin-top: -2rem;
   font-weight: 600;
   text-shadow: black 4px 4px 8px;
 }
 
 .span-text-of-page {
-  font-size: 2.7rem;
+  display: flex;
+  padding-top: 1rem;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1em;
+  font-size: 1rem;
   font-family: serif;
   text-shadow: black 4px 4px 8px;
 }
+.span-text-of-page button{
+  width: 12rem;
+  font-size: 1.3rem;
+}
 .span-text-of-page-two {
-  margin-top: 4rem;
-  font-size: 2.5rem;
-  margin-left: 9rem;
-  text-align: center;
+  /* margin-top: 4rem; */
+  font-size: 1.2rem;
+  /* margin-left: 9rem; */
+  /* text-align: center; */
   background-color: red;
-  width: 60%;
+  width: 80%;
   font-family: serif;
   text-shadow: black 4px 4px 8px;
 }
@@ -120,7 +132,7 @@ body {
 .bachelor-and-section {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   margin-bottom: 2rem;
   flex-wrap: wrap;
   height: auto;
@@ -423,7 +435,7 @@ p {
     text-shadow: black 4px 4px 8px;
   }
   .second-text {
-    font-size: 50%;
+    font-size: 1rem;
   }
   .second-head-text-of-page {
     font-size: 260%;
@@ -433,7 +445,7 @@ p {
   }
   .span-text-of-page-two {
     margin-top: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     margin-left: 1rem;
     text-align: center;
     background-color: red;

@@ -133,7 +133,7 @@ const ModalForm = ({ cancel }) => {
             </button>
             <b>
               <h4 style={{ color: "white" }}>
-                For More Info - <b>9427 700 700</b>
+                For More Info - <b>(+91) 953 825 5512</b>
               </h4>
             </b>
           </form>

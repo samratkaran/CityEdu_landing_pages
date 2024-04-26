@@ -6,6 +6,8 @@ import { useState } from "react";
 import Modal from "./Modal/Modal";
 import CourseCard from "./cards/CourseCard";
 import Accordion from "react-bootstrap/Accordion";
+import { TypeAnimation } from "react-type-animation";
+
 
 const Main = () => {
   const [show, setShow] = useState(false);
@@ -14,22 +16,46 @@ const Main = () => {
   // const handleSectionClick = (section) => {
   //   setActiveSection(section);
   // };
+
+
   return (
     // commnet
     <>
       <Fade cascade damping={0.5}>
         <div className="row main-head-text-of-landing-page">
-          <div className="col-md-8 text-white">
+          <div className="col-md-7 text-white">
             <p className="head-text-of-page">NEET MDS 2024</p>
-            {/* <p className="second-text">  </p> */}
+            
             {/* <p className="second-head-text-of-page">
             College Of Law
             </p> */}
-            <p className="span-text-of-page">
-              Are you ready to take the next step in your dental career? Look no
-              further! As we are here to guide you.
+           
+            <p className="span-text-of-page-two ">
+            <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'MCC - All India Counselling',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'KEA - Karnataka Counselling',
+        1000,
+        'Other States Counselling',
+        1000,
+       
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={Infinity}
+    />
             </p>
-            <p className="span-text-of-page-two ">Admission Open 2024-25</p>
+            <p className="second-text"> Get NEET MDS Admission Guidance Today For </p>
+
+             <p className="span-text-of-page">
+             <button className="btn btn-primary">MERIT</button>
+             <button className="btn btn-primary">MGMT.</button>
+             <button className="btn btn-primary">NRI</button>
+            </p>
+
           </div>
 
           <div className="col-md-3">
