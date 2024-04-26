@@ -268,9 +268,9 @@ const Main = () => {
           <div className="row main-contact-us mt-5 mb-5">
             {show ? <Modal cancel={setShow} /> : null}
             <div className="col-md-12 contact-us p-5">
-              <h1 style={{ color: "white" }}>
+              <h3 style={{ color: "white" , textTransform:"uppercase" }}>
                 To Know About Eligibility, Colleges Cutoff and Admission Process
-              </h1>
+              </h3>
 
               <button
                 className="contact-button"
@@ -314,7 +314,7 @@ const Main = () => {
             
     <div className="row m-auto">
       <div className="col-md-10 m-auto mt-4" style={{textAlign:"center"}}>
-        <h3>We Take Care Of End to End NEET Counselling Guidance, It Includes.</h3>
+        <h4>We Take Care Of End to End NEET Counselling Guidance, It Includes.</h4>
       </div>
     </div>
 
@@ -351,10 +351,10 @@ const Main = () => {
           <div className="row main-contact-us mt-5 mb-5">
             {show ? <Modal cancel={setShow} /> : null}
             <div className="col-md-12 contact-us p-5">
-              <h1 style={{ color: "white" }}>
+              <h3 style={{ color: "white", textTransform:"uppercase" }}>
               We Offer Services For All India Counselling
 & States Counselling.
-              </h1>
+              </h3>
 
               <button
                 className="contact-button"
@@ -375,28 +375,28 @@ const Main = () => {
       <div class="col-md">
         <img src={require("../Assets/clock.png")} alt="" width="30%"/>
         <div>
-          <h5>100% Assurance</h5>
+          <h6>100% Assurance</h6>
           <p>Make quick admission process.</p>
         </div>
       </div>
       <div class="col-md">
         <img src={require("../Assets/setting.png")} alt="" width="30%"/>
         <div>
-          <h5>Excellent Counselling</h5>
+          <h6>Excellent Counselling</h6>
           <p>We guide you through every steps of your admission procedure.</p>
         </div>
       </div>
       <div class="col-md">
         <img src={require("../Assets/accessible.png")} alt="" width="30%"/>
         <div>
-          <h5>Affordable Budget</h5>
+          <h6>Affordable Budget</h6>
           <p>We counsel you according to your budget</p>
         </div>
       </div>
       <div class="col-md">
         <img src={require("../Assets/help.png")} alt="" />
         <div>
-          <h5>100% Assistance</h5>
+          <h6>100% Assistance</h6>
           <p>Do not dwell in the past, do not dream of the future, do it now</p>
         </div>
       </div>

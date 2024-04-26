@@ -8,7 +8,7 @@ h1 {
 }
 p,
 li {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 body {
   overflow-x: hidden;
@@ -311,9 +311,9 @@ body {
   box-shadow: #3b1d6453 0px 4px 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+  /* gap: 1rem; */
   width: 18rem;
   text-align: center;
   background-color: #0096a1b8;
