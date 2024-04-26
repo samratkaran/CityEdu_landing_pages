@@ -41,7 +41,7 @@ body {
   /* padding-top: -4rem; */
   /* font-size: 100%; */
   padding-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 .second-head-text-of-page {
@@ -69,6 +69,7 @@ body {
   /* margin-top: 4rem; */
   font-size: 1.2rem;
   /* margin-left: 9rem; */
+  padding-left: 2rem;
   /* text-align: center; */
   background-color: red;
   width: 80%;
@@ -302,7 +303,7 @@ body {
 .campus-life {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   flex-wrap: wrap;
   padding: 0% 2%;
 }
@@ -313,10 +314,10 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  width: 19rem;
+  width: 18rem;
   text-align: center;
   background-color: #0096a1b8;
-  padding: 1% 1%;
+  padding: 0% 0%;
   color: white;
   font-weight: 600;
 }
@@ -364,6 +365,28 @@ p {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.why-chose-us-main{
+  display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 0% 5%;
+}
+
+.col-md {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d5d0d0;
+  padding: 2% 2%;
+  height: 15rem;
+  margin: 2% 2%;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.col-md img{
+  width: 40%;
 }
 
 /* special button */

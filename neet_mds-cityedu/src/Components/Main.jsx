@@ -48,7 +48,7 @@ const Main = () => {
       repeat={Infinity}
     />
             </p>
-            <p className="second-text"> Get NEET MDS Admission Guidance Today For </p>
+            <p className="second-text"> Get NEET MDS Admission Guidance Today </p>
 
              <p className="span-text-of-page">
              <button className="btn btn-primary">MERIT</button>
@@ -70,7 +70,7 @@ const Main = () => {
             <div className="col-md-11 p-3">
               <p>
                 {" "}
-                NEET MDS, the only annual exam conducted online by the National
+                NEET MDS, the only annual exam conducted  by the National
                 Board of Examinations (NBE), is your ticket to pursuing
                 postgraduate dental courses in India. Accepted by most dental
                 colleges nationwide, NEET MDS serves as the primary gateway for
@@ -85,7 +85,7 @@ const Main = () => {
               </p>{" "}
               <br />
               <p>
-                Once the exam results are out, the Medical Counselling Committee
+                 The Medical Counselling Committee
                 (MCC) takes charge of the counselling process to ensure fair
                 distribution of seats among qualified candidates. Don't miss
                 this chance to shape your future in dentistry!
@@ -105,87 +105,95 @@ const Main = () => {
               <div className="bachelor-and-section col-md-12">
                 <CourseCard
                   CourseName={"Prosthodontics"}
-                  DegreeName={"Bachelor"}
+                  DegreeName={"Master"}
                   Duration={"3 Years"}
                   imageUrl={require("../Assets/couese-image/BALLB.jpg")}
                 />
 
                 <CourseCard
                   CourseName={"Periodontics"}
-                  DegreeName={"Bachelor"}
+                  DegreeName={"Master"}
                   Duration={"3 Years"}
                   imageUrl={require("../Assets/couese-image/BALLB.jpg")}
                 />
 
                 <CourseCard
                   CourseName={"Oral and Maxillofacial Surgery"}
-                  DegreeName={"Bachelor"}
+                  DegreeName={"Master"}
                   Duration={"3 Years"}
                   imageUrl={require("../Assets/couese-image/BALLB.jpg")}
                 />
 
-                <CourseCard
-                  CourseName={"Conservative Dentistry"}
-                  DegreeName={"Bachelor"}
+<CourseCard
+                  CourseName={"Endodontics"}
+                  DegreeName={"Master"}
                   Duration={"3 Years"}
                   imageUrl={require("../Assets/couese-image/BALLB.jpg")}
                 />
+
+                
 
                 <CourseCard
                   CourseName={"Orthodontics"}
-                  DegreeName={"Bachelor"}
+                  DegreeName={"Master"}
                   Duration={"3 Years"}
                   imageUrl={require("../Assets/couese-image/BALLB.jpg")}
                 />
 
-                <CourseCard
-                  CourseName={"Oral Pathology"}
-                  DegreeName={"Bachelor"}
-                  Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/BALLB.jpg")}
-                />
-
-                <CourseCard
-                  CourseName={"Community Dentistry"}
-                  DegreeName={"Bachelor"}
-                  Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/BALLB.jpg")}
-                />
+               
+             
 
                 <CourseCard
                   CourseName={"Paedodontics "}
-                  DegreeName={"Bachelor"}
+                  DegreeName={"Master"}
+                  Duration={"3 Years"}
+                  imageUrl={require("../Assets/couese-image/BALLB.jpg")}
+                />
+
+<CourseCard
+                  CourseName={"Conservative Dentistry"}
+                  DegreeName={"Master"}
                   Duration={"3 Years"}
                   imageUrl={require("../Assets/couese-image/BALLB.jpg")}
                 />
 
                 <CourseCard
                   CourseName={"Oral Medicine and Radiology"}
-                  DegreeName={"Bachelor"}
+                  DegreeName={"Master"}
                   Duration={"3 Years"}
                   imageUrl={require("../Assets/couese-image/BALLB.jpg")}
                 />
 
-                <CourseCard
-                  CourseName={"Endodontics"}
-                  DegreeName={"Bachelor"}
-                  Duration={"3 Years"}
-                  imageUrl={require("../Assets/couese-image/BALLB.jpg")}
-                />
+           
 
                 <CourseCard
                   CourseName={"Oral Implantology"}
-                  DegreeName={"Bachelor"}
+                  DegreeName={"Master"}
                   Duration={"3 Years"}
                   imageUrl={require("../Assets/couese-image/BALLB.jpg")}
                 />
 
                 <CourseCard
                   CourseName={"Forensic Odontology"}
-                  DegreeName={"Bachelor"}
+                  DegreeName={"Master"}
                   Duration={"3 Years"}
                   imageUrl={require("../Assets/couese-image/BALLB.jpg")}
                 />
+
+<CourseCard
+                  CourseName={"Community Dentistry"}
+                  DegreeName={"Master"}
+                  Duration={"3 Years"}
+                  imageUrl={require("../Assets/couese-image/BALLB.jpg")}
+                />
+
+<CourseCard
+                  CourseName={"Oral Pathology"}
+                  DegreeName={"Master"}
+                  Duration={"3 Years"}
+                  imageUrl={require("../Assets/couese-image/BALLB.jpg")}
+                />
+
               </div>
             </div>
           </div>
@@ -261,7 +269,91 @@ const Main = () => {
             {show ? <Modal cancel={setShow} /> : null}
             <div className="col-md-12 contact-us p-5">
               <h1 style={{ color: "white" }}>
-                To Know About Eligibility Criteria and Admission Process
+                To Know About Eligibility, Colleges Cutoff and Admission Process
+              </h1>
+
+              <button
+                className="contact-button"
+                style={{ width: "14rem" }}
+                onClick={() => setShow(true)}
+              >
+                {" "}
+                Click Herer!
+              </button>
+            </div>
+          </div>
+        </Bounce>
+        <HeadText value={"NEET Cutoff 2024"} />
+        
+        <Fade delay={500} direction="left">
+          <div className="row main-campus-life">
+            <div className="col-md-12 campus-life">
+              <div class="card-of-campus-life">
+                {" "}
+                <h2>General/EWS</h2>
+                <h6> 263 Marks</h6>
+              </div>
+
+              <div class="card-of-campus-life">
+                {" "}
+                <h2>SC/ST/OBC</h2>
+                <h6>  230 Marks</h6>
+              </div>
+
+              <div class="card-of-campus-life">
+                {" "}
+                <h2>UR PWD</h2>
+                <h6>  246 Marks</h6>
+              </div>
+            </div>
+          </div>
+        </Fade>
+        <HeadText value={"our service"}/>
+        <div className="row">
+          <div className="col-md-12">
+            
+    <div className="row m-auto">
+      <div className="col-md-10 m-auto mt-4" style={{textAlign:"center"}}>
+        <h3>We Take Care Of End to End NEET Counselling Guidance, It Includes.</h3>
+      </div>
+    </div>
+
+    <div className="row main-campus-life">
+      <div class="col-md-12
+           campus-life">
+
+        <div className="card-of-campus-life"> <img src={require("../Assets/counseling.png")} alt=""/>
+          <h6>Counselling Registrations</h6>
+        </div>
+        <div className="card-of-campus-life"> <img src={require("../Assets/documentation.png")} alt=""/>
+          <h6> Documentations</h6>
+        </div>
+        <div className="card-of-campus-life"> <img src={require("../Assets/key-performance-indicator.png")} alt=""/>
+          <h6> Cutoff Analysis</h6>
+        </div>
+        <div className="card-of-campus-life"> <img src={require("../Assets/college.png")} alt=""/>
+          <h6> College Selection Guidance</h6>
+        </div>
+        <div className="card-of-campus-life"> <img src={require("../Assets/login.png")} alt=""/>
+          <h6> Option Entry</h6>
+        </div>
+        <div className="card-of-campus-life"> <img src={require("../Assets/post-allotment.png")} alt=""/>
+          <h6>Post Allotment Admission Support</h6>
+        </div>
+
+
+      </div>
+    </div>
+          </div>
+        </div>
+
+        <Bounce duration={1000}>
+          <div className="row main-contact-us mt-5 mb-5">
+            {show ? <Modal cancel={setShow} /> : null}
+            <div className="col-md-12 contact-us p-5">
+              <h1 style={{ color: "white" }}>
+              We Offer Services For All India Counselling
+& States Counselling.
               </h1>
 
               <button
@@ -276,15 +368,44 @@ const Main = () => {
           </div>
         </Bounce>
 
-        <HeadText value="NEET MDS Registration Process" />
+        <HeadText value={"Why Chose Us"}/>
+
+        <div class="row m-auto"
+       className="why-chose-us-main">
+      <div class="col-md">
+        <img src={require("../Assets/clock.png")} alt="" width="30%"/>
+        <div>
+          <h5>100% Assurance</h5>
+          <p>Make quick admission process.</p>
+        </div>
+      </div>
+      <div class="col-md">
+        <img src={require("../Assets/setting.png")} alt="" width="30%"/>
+        <div>
+          <h5>Excellent Counselling</h5>
+          <p>We guide you through every steps of your admission procedure.</p>
+        </div>
+      </div>
+      <div class="col-md">
+        <img src={require("../Assets/accessible.png")} alt="" width="30%"/>
+        <div>
+          <h5>Affordable Budget</h5>
+          <p>We counsel you according to your budget</p>
+        </div>
+      </div>
+      <div class="col-md">
+        <img src={require("../Assets/help.png")} alt="" />
+        <div>
+          <h5>100% Assistance</h5>
+          <p>Do not dwell in the past, do not dream of the future, do it now</p>
+        </div>
+      </div>
+
+    </div>
+
+        {/* <HeadText value="NEET MDS Registration Process" />
         <div className="row d-flex justify-content-center align-items-center ">
-          {/* <div className="col-md-4 d-none d-md-block m-auto">
-            <img
-              src={require("../Assets/f14d6c0a5773675a110f0fbb4988efa6-removebg-preview.png")}
-              alt=""
-              className="why-chose-us-image"
-            />
-          </div> */}
+          
           <div className="col-md-11 ">
             <ul className="why-chose-reva">
               <Fade delay={200}>
@@ -419,37 +540,9 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <HeadText value={"NEET Cutoff 2024"} />
-        <h4 className="col-md-11 m-auto">
-          The NEET MDS cutoff for 2024, expected to be higher this year, will be
-          disclosed alongside the result. The qualifying percentiles, as per
-          NBEMS, are
-        </h4>
-        <Fade delay={500} direction="left">
-          <div className="row main-campus-life">
-            <div className="col-md-12 campus-life">
-              <div class="card-of-campus-life">
-                {" "}
-                <h2>General/EWS</h2>
-                <h6> 50th Percentile</h6>
-              </div>
-
-              <div class="card-of-campus-life">
-                {" "}
-                <h2>SC/ST/OBC</h2>
-                <h6> 40th Percentile</h6>
-              </div>
-
-              <div class="card-of-campus-life">
-                {" "}
-                <h2>UR PWD</h2>
-                <h6> 45th Percentile</h6>
-              </div>
-            </div>
-          </div>
-        </Fade>
+      
         <HeadText value={"FAQ's"} />
         <div className="row">
           <div className="col-md-11 m-auto">

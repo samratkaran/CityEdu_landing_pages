@@ -124,7 +124,7 @@ const ModalForm = ({ cancel }) => {
               value={collegeData.course}
               onChange={handleInputChanges}
               aria-describedby="emailHelp"
-              placeholder="Course*"
+              placeholder="Specilization*"
               required
             />
 
