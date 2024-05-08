@@ -10,7 +10,7 @@ h1 {
   text-transform: uppercase;
 }
 
-.heder-of-city-guidde {
+/* .heder-of-city-guidde {
   position: fixed;
   height: 5rem;
   display: flex;
@@ -20,11 +20,11 @@ h1 {
   z-index: 100;
   box-sizing: content-box !important;
   overflow: hidden;
-}
+} */
 
 .main-head-text-of-landing-page {
   margin-top: 0rem !important;
-  padding-top: 6rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: center;
   gap: 6rem;
