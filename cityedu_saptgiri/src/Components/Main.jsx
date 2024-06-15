@@ -11,7 +11,7 @@ const Main = () => {
   const [activeSection, setActiveSection] = useState("bachelor"); // Initial active section
 
   const handleSectionClick = (section) => {
-    setActiveSection(section);
+    // setActiveSection(section);
   };
   return (
     <>
@@ -19,7 +19,7 @@ const Main = () => {
         <div className="row main-head-text-of-landing-page">
           <div className="col-md-8 text-white">
             <p className="head-text-of-page"> SAPTHAGIRI </p>
-            <p className="second-head-text-of-page"> UNIVERSITY,BANGALORE</p>
+            <p className="second-head-text-of-page">NPS UNIVERSITY,BANGALORE</p>
             <p className="span-text-of-page">
             WELCOME TO THE WORLD OF UNMATCHED POTENTIAL AND UNLIMITED OPPORTUNITIES.
             </p>
@@ -42,14 +42,14 @@ const Main = () => {
             />
           </div>
           <div className="col-md-7 p-3">
-            <p>
+            <p style={{fontSize:"1.1rem"}}>
               Sapthagiri NPS University, Bangalore, is committed to imparting
               quality engineering education to develop students into responsible
               citizens equipped with the skills and knowledge to excel in their
               fields. The university emphasizes a blend of theoretical and
               practical learning, ensuring that graduates are well-prepared to
               meet the challenges of the engineering industry. <br /> <br />
-              <ul style={{listStyle:"none", paddingLeft:"0rem"}}>
+              <ul style={{listStyle:"none", paddingLeft:"0rem"}} className="overview-list">
                <li><b>Comprehensive Curriculum:</b> The courses are designed to cover fundamental and advanced topics, fostering a deep understanding of engineering principles.</li>
                <li><b>State-of-the-Art Facilities:</b> Equipped with modern labs and research facilities to support hands-on learning and innovation.</li>
                <li><b>Experienced Faculty:</b> A team of highly qualified and experienced faculty members dedicated to student success.</li>
@@ -59,7 +59,7 @@ const Main = () => {
             </p>
           </div>
         </div>
-        <HeadText value={"Courses Offered"} />
+        <HeadText value={"B.Tech Courses Offered"} />
         <div className="row">
         <div className="col-md-12 m-auto h-auto App course-offerd" >
             <div className="tabs">
@@ -223,14 +223,14 @@ const Main = () => {
 
         <HeadText value="Why Choose Sapthagiri University?" />
         <div className="row d-flex justify-content-center align-items-center ">
-          <div className="col-md-4 d-none d-md-block m-auto">
+          {/* <div className="col-md-4 d-none d-md-block m-auto">
             <img
               src={require("../Assets/f14d6c0a5773675a110f0fbb4988efa6-removebg-preview.png")}
               alt=""
               className="why-chose-us-image"
             />
-          </div>
-          <div className="col-md-8 ">
+          </div> */}
+          <div className="col-md-12 ">
             <ul className="why-chose-reva">
               <Fade delay={200}>
                 <li>Modern Infrastructure</li>

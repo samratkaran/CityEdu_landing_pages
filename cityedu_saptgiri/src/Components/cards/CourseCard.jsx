@@ -12,11 +12,11 @@ const CourseCard = ({ imageUrl, CourseName, DegreeName, Duration }) => {
     <>
       <div className="row">
         <div className="col-md-12 course-card-main">
-          <div>
+          {/* <div>
             <img src={imageUrl} alt="" />
-          </div>
+          </div> */}
           <div className="all-data-of-course">
-            <h3 className="text-head">{CourseName}</h3>
+            <h3 className="text-head" style={{fontSize:"1.5rem"}}>{CourseName}</h3>
             <p>
               <FcGraduationCap /> Degree: {DegreeName}
             </p>
@@ -27,7 +27,7 @@ const CourseCard = ({ imageUrl, CourseName, DegreeName, Duration }) => {
             {show ? <Modal cancel={setShow} /> : null}
             <button
               className="contact-button"
-              style={{ width: "14rem" }}
+              
               onClick={() => setShow(true)}
             >
               {" "}
