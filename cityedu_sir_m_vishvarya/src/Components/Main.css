@@ -159,7 +159,7 @@ body {
   /* border: 1px solid red; */
   /* width: 25rem; */
   /* list-style: none; */
-  height: 8rem;
+  height: 9rem;
   text-align: center;
   padding: 2% 2%;
   background-color: #0096a1;
@@ -390,13 +390,13 @@ p {
 
   .head-text-of-page {
     padding-top: 4rem;
-    font-size: 550%;
-    margin-bottom: -2rem;
+    font-size: 210%;
+    margin-bottom: 0rem;
     font-weight: 600;
     text-shadow: black 4px 4px 8px;
   }
   .second-head-text-of-page {
-    font-size: 300%;
+    font-size: 175%;
     font-weight: 600;
     text-shadow: black 4px 4px 8px;
   }
@@ -405,6 +405,21 @@ p {
     font-size: 1.7rem;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: black 4px 4px 8px;
+  }
+
+  .span-text-of-page-two {
+    /* margin-left: 10rem; */
+    width: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-family: serif;
+    text-shadow: black 4px 4px 8px;
+    font-family: cursive;
+    /* border: 1px solid black; */
+    
+    background-color: red;
+    text-align: center;
   }
   .boxes-of-palcement {
     flex-wrap: wrap;

@@ -50,7 +50,7 @@ const Form = () => {
             id="myFirstForm"
             onSubmit={HandleFormSubmit}
           >
-            <h2 style={{ color: "white", textShadow: "1px 1px 1px black" }}>
+            <h2 style={{  textShadow: "1px 1px 1px black" }}>
               Enquire Now
             </h2>
 
