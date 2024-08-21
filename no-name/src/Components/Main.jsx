@@ -38,28 +38,7 @@ const Main = () => {
         </div>
       </Fade>
       <div className="main-container mb-5">
-        <div className="row main-overview-of-page">
-          <h1
-            style={{
-              textAlign: "center",
-              fontWeight: "700",
-              color: "white",
-              fontSize: "4rem",
-            }}
-          >
-            OVERVIEW
-          </h1>
-
-          <div className="col-md-11 p-3">
-            <p>
-              {" "}
-              Nitte Meenakshi Institute of Technology (NMIT) is a private engineering college located in Bangalore, India. It was established in 2001. NMIT is known for its quality education and has been consistently ranked among the top engineering colleges in Karnataka.</p>
-              <ul>
-                <li>The college has collaborations with leading companies and institutions, which provide students with excellent opportunities for internships,training, and placements.</li>
-                <li>Many reputed companies like Amazon, Infosys, IBM, and Wipro have recruited NMIT graduates. NMIT is an excellent choice for students who are looking for a top-quality engineering education in Bangalore.</li>
-              </ul>
-          </div>
-        </div>
+        
         <HeadText value={"top colleges in delhi ncr region "} />
         <div className="row">
           <div className="col-md-12 m-auto h-auto App">

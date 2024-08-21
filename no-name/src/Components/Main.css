@@ -404,13 +404,14 @@ p {
     text-shadow: black 4px 4px 8px;
   }
   .second-head-text-of-page {
-    font-size: 175%;
+    margin-top: 0rem;
+    font-size: 305%;
     font-weight: 600;
     text-shadow: black 4px 4px 8px;
   }
 
   .span-text-of-page {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: black 4px 4px 8px;
   }
@@ -418,15 +419,17 @@ p {
   .span-text-of-page-two {
     /* margin-left: 10rem; */
     width: auto;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
     font-size: 1.2rem;
     font-family: serif;
     text-shadow: black 4px 4px 8px;
     font-family: cursive;
     /* border: 1px solid black; */
     
-    background-color: red;
+    background-color: rgb(103, 96, 96);
     text-align: center;
   }
   .boxes-of-palcement {

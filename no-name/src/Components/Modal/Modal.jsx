@@ -9,7 +9,7 @@ const ModalForm = ({ cancel }) => {
     phone: "",
     course: "",
     location: "",
-    college: "NITTE MEENAKSHI INSTITUTE OF TECHNOLOGY",
+    college: "Admission in Delhi NCR",
   });
 
   const [showform, setShowForm] = useState(true);
