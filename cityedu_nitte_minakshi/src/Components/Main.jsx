@@ -57,19 +57,19 @@ const Main = () => {
               </ul>
           </div>
         </div>
-        <HeadText value={"Courses Offered"} />
+        <HeadText value={"BE / B.Tech Specilization Offered"} />
         <div className="row">
           <div className="col-md-12 m-auto h-auto App">
             <div className="tabs">
-              <div
+              {/* <div
                 className={`tab ${
                   activeSection === "bachelor" ? "active" : ""
                 } `}
                 onClick={() => handleSectionClick("bachelor")}
               >
                 Bachelor's
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 className={`  tab ${
                   activeSection === "master" ? "active" : ""
                 }`}
@@ -84,7 +84,7 @@ const Main = () => {
                 onClick={() => handleSectionClick("PHD")}
               >
                 Ph.D./M.Sc
-              </div>
+              </div> */}
             </div>
             <div className="content">
               {activeSection === "bachelor" && (
@@ -159,7 +159,7 @@ const Main = () => {
                  
                 </div>
               )}
-              {activeSection === "master" && (
+              {/* {activeSection === "master" && (
                 <div className="bachelor-and-section">
                 <CourseCard
                     CourseName={"Electronics & Communication Engineering"}
@@ -270,7 +270,7 @@ const Main = () => {
              
                   
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </div>
