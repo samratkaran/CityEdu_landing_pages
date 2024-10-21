@@ -39,8 +39,8 @@ const Footer = () => {
 
         <section class="">
           <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="row mt-3" >
+              <div class="col-md-3 col-lg-4 col-xl-3  mb-4">
                 <h6
                   class="text-uppercase fw-bold mb-4"
                   style={{ color: "white" }}
@@ -57,7 +57,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              {/* <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6
                   class="text-uppercase fw-bold mb-4"
                   style={{ color: "white" }}
@@ -72,7 +72,7 @@ const Footer = () => {
                   925, 9th Floor, Tower B3, Spaze i-Tech Park, Badshahpur Sohna
                   Rd Hwy, Sector 49, Gurugram, Haryana 122018
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

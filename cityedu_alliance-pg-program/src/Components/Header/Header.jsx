@@ -7,7 +7,7 @@ const Header = () => {
       <div class="row main-heder-of-city-guidde ">
         <div class="col-12 heder-of-city-guidde">
           <img src={require("../../Assets/ss.png")} alt="" />
-          {/* <span style={{ color: "black" }}>For Info : (+91) 9427 700 700</span> */}
+          <span style={{ color: "white" }}>For Info : (+91) 8494855510</span>
         </div>
       </div>
     </>

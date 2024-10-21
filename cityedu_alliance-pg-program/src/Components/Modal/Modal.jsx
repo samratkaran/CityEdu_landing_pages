@@ -57,7 +57,7 @@ const ModalForm = ({ cancel }) => {
             id="myFirstForm"
             onSubmit={HandleFormSubmit}
           >
-            <h2
+            <h4
               style={{
                 textAlign: "right",
                 width: "90%",
@@ -67,10 +67,10 @@ const ModalForm = ({ cancel }) => {
               onClick={() => cancel(false)}
             >
               X
-            </h2>
-            <h2 style={{ color: "white", textShadow: "1px 1px 1px black" }}>
+            </h4>
+            <h3 style={{ color: "white", textShadow: "1px 1px 1px black" }}>
               Enquire Now
-            </h2>
+            </h3>
 
             <input
               type="text"
@@ -132,7 +132,7 @@ const ModalForm = ({ cancel }) => {
             </button>
             <b>
               <h4 style={{ color: "white" }}>
-                For More Info - <b>9427 700 700</b>
+                For More Info - <b>(+91) 8494855510</b>
               </h4>
             </b>
           </form>
