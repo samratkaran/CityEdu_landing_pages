@@ -104,6 +104,7 @@ const Main = () => {
             <p className="span-text-of-page">Empowering Careers, Transforming Lives
             </p>
             <p className="span-text-of-page-two ">Admission Open 2025</p>
+            <p className="span-text-of-page-three" >Intake: January | July Batch</p>
           </div>
 
           <div className="col-md-3">
@@ -113,18 +114,11 @@ const Main = () => {
       </Fade>
 
       <div className="main-container mb-5">
-      <section class="intake" id="intake" >
-<div class="container">
+      <section className="intake pt-3 pb-3 " id="intake" >
+{/* <div class="container">
 
 <div class="d-none d-md-block">
 <div class="row justify-content-center ">
-
-
-{/* <div class="col-md-3 ">
-<p><span>Location:</span><br/> Bengaluru</p>                                                                                         
-</div> */}
-
-
 <div class="col-md-3  ">
 <p><span style={{fontSize:"2rem"}}>Intake:</span> January | July 2025</p> 
 </div>
@@ -134,9 +128,7 @@ const Main = () => {
 </div>
 
 
-{/* <div class="col-md-3 ">
-<p><span>Batch Commencement:</span><br/> September 05, 2024</p>  
-</div> */}
+
 
 
 <div class="col-md-4">
@@ -153,19 +145,21 @@ const Main = () => {
 </div>
 </div>
 
-</div>
-</section>
-        <div className="row main-overview-of-page">
-          <h1
+</div> */}
+
+<h1
             style={{
               textAlign: "center",
               fontWeight: "700",
-              color: "black",
+              color: "white",
               fontSize: "3rem",
             }}
           >
             Alliance School of Business
           </h1>
+</section>
+        <div className="row main-overview-of-page">
+          
 
           <div className="col-md-11 p-3">
             <p>

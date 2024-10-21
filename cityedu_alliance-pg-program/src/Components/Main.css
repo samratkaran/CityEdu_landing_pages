@@ -65,6 +65,19 @@ body {
   background-color: #900f0f;
   text-align: center;
 }
+.span-text-of-page-three {
+  /* margin-left: 10rem; */
+  width: 35rem;
+  /* padding-top: 1rem; */
+  font-size: 1.3rem;
+  font-family: serif;
+  text-shadow: black 4px 4px 8px;
+  font-family: cursive;
+  /* border: 1px solid black; */
+  
+  /* background-color: #900f0f; */
+  text-align: center;
+}
 
 .main-overview-of-page {
   display: flex;

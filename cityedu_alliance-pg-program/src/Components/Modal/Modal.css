@@ -11,15 +11,17 @@
   margin-bottom: 5rem;
 }
 .modal-form-of-landing-page {
-  width: 30rem;
+  width: 26rem;
   background-color: #012148;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
-  /* padding: 1rem 0; */
+  gap: 1rem;
+  padding: 1rem 0;
+  /* margin: 4rem 0rem; */
+  margin-bottom: 6rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 1;
 }
