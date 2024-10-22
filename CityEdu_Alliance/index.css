@@ -1,6 +1,10 @@
 * {
   margin: 0px;
   padding: 0px;
+  
+}
+body{
+  overflow-x: hidden;
 }
 
 .heder-of-city-guidde {
@@ -72,6 +76,10 @@
 
 .wow{
   width: 20rem;
+}
+.academics-text{
+  border-left: 4px solid #900f0f;
+  padding-left: 15px;
 }
 .main-why-alliance {
   display: flex;
