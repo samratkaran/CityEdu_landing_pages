@@ -15,6 +15,9 @@
   color: white;
   box-sizing: content-box !important;
 }
+.header-image{
+  width: 20rem;
+}
 
 .main-head-text-of-landing-page {
   margin-top: 3rem !important;
@@ -58,35 +61,17 @@
 }
 
 .all-program-cards {
-  margin: auto;
+  /* margin: auto; */
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  align-items: center;
+  overflow-x: hidden;
+  gap: 5rem;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
   flex-wrap: wrap;
 }
 
-.program-cards {
-  flex-direction: column;
-
-  width: 24rem;
-  height: 27rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.program-cards li {
-  font-size: 1.5rem;
-  font-weight: 600;
-  list-style: none;
-}
-.program-cards div {
-  background-color: #900f0f !important;
-  margin-bottom: 1rem;
-}
-.program-cards button {
-  width: 50%;
-  margin-left: 25%;
-  background-color: #282646;
-  color: white;
+.wow{
+  width: 20rem;
 }
 .main-why-alliance {
   display: flex;
@@ -296,6 +281,9 @@ button {
     align-items: center;
     animation: revealAnimationright 2s forwards;
     margin-top: -4rem;
+  }
+  .header-image{
+    width: 12rem;
   }
   .main-head-text-of-landing-page {
     margin-top: 3rem !important;
