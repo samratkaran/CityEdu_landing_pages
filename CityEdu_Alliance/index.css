@@ -24,7 +24,7 @@ body{
 }
 
 .main-head-text-of-landing-page {
-  margin-top: 3rem !important;
+  /* margin-top: rem !important; */
   display: flex;
   justify-content: center;
   gap: 6rem;
@@ -286,7 +286,19 @@ button {
   transform: translateY(4px);
 }
 
-/*  */
+/* ------------------------------------------------ */
+
+.carouselTwo-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.item{
+  width: 18rem;
+}
+
+
 /* ----------------------------------------------------- */
 
 @keyframes revealAnimation {

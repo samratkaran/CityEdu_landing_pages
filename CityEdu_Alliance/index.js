@@ -9,7 +9,7 @@ var buttons = document.querySelectorAll("button");
 
 // Define an array of objects that store the image and text for each button
 var data = [
-  {image: "./Assets/CampusImage.png", text: ["60+", "Acres of Campus", "80+", "Multimedia Classrooms" ,"8500+", "Flowering plants", "1 Million" ,"sqft of built-up area"]}
+  {image: "./Assets/CampusImage.png", text: ["60+", "Acres of Campus", "80+", "Multimedia Classrooms" ,"8500+", "Flowering plants", "1 Million" ,"sqft of built-up area"],}
   
   ,
   {image: "./Assets/learning-center.jpg", text: ["Circular", "design structure", "Audio-visual", "facilities" , "IT","Center", "Seminar" , "Halls"]}
@@ -273,4 +273,5 @@ callingApi(value)
 })
 
 
+// ---------------------------------------------------------
 
