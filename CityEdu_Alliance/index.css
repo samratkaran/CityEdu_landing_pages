@@ -77,6 +77,15 @@ body{
   /* padding: 1rem 1rem; */
   flex-wrap: wrap;
 }
+.course-button-sp button{
+  background-color: #900f0f;
+   color: white;
+    width: 23rem;
+     /* height: 4rem; */
+      border-radius: 40px;
+       font-size: large;
+        font-weight: 700;
+}
 
 .wow{
   width: 17rem;
