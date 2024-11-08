@@ -40,13 +40,13 @@ h1 {
 }
 .text-of-landing-page {
   text-shadow: rgb(0, 0, 0) 3px 3px 5px;
-  font-size: 600%;
+  font-size: 400%;
   font-weight: 700;
 }
 
 .span-text-of-landing-page {
   text-shadow: rgb(0, 0, 0) 3px 3px 5px;
-  font-size: 310%;
+  font-size: 250%;
   font-weight: 200;
   color: white;
   /* padding-bottom: 4rem; */
@@ -54,7 +54,7 @@ h1 {
 }
 .main-text {
   color: white;
-  font-size: 3.4rem;
+  font-size: 3rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0);
   /* padding-top: 3rem; */
   font-weight: 600;
@@ -105,11 +105,147 @@ button {
   width: 70%;
 }
 
-.main-overview-of-college {
+
+.accreditation {
+  position: relative;
+  padding: 50px 0;
+  background: url(../images/Image34.png);
+  background-position: top center;
+  background-size: cover;
+  background: #0000FF;
+  color: white;
+}
+
+.acc_box {
+  /* padding: 1% 0%; */
+  padding-top: 1.2rem;
+  z-index: 1;
+  background: #ffffff;
+  margin: 0 15px 0 0;
+  border-radius: 10px;
+  width:28rem;
+  /* text-align: center; */
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  touch-action: auto;
+  overflow: auto;
+}
+
+
+.acc_box_inner {
+  /* background: #772727; */
+  background: #515ac7;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 14px;
+  min-height: 230px;
+}
+.acc_box img{
+  width: 9rem;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background: #E13530;
+}
+
+
+.placement {
+  padding: 50px 0;
+  /* background: url(../images/Image16.png); */
+  background-position: top center;
+  background-size: cover;
+}
+
+.bg-placement-img {
+  background: url(./Assets/placement.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -0.5rem;
+  background-color: #6610f2;
+}
+
+
+.bg-leader-img {
+  /* background: url(./Assets/bgleader.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.design-exp-points ul li {
+  list-style: url(./Assets/download.svg) outside !important;
+  color: #393185;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.enter-sec {
+  box-shadow: 0px 0px 10px #c7c6c8;
+  padding: 1rem;
+}
+
+.bg-img-yel {
+  background: url(./Assets/yellow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.specilization{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+  background-color: #393185;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.card h5 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* ---------------------------------------- */
+
+.text-violet{
+  font-weight: 600;
+  color: #393185;
+  font-size: 1.4rem;
+}
+.text-pink{
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 .course-and-collage {
@@ -189,40 +325,9 @@ button {
   flex-wrap: wrap;
 }
 
-.card-of-campus-life {
-  box-shadow: #09090953 0px 4px 5px;
-  display: flex;
-  flex-direction: column;
-  /* margin: auto; */
-  align-items: center;
-  width: 18rem;
-  text-align: center;
-  gap: 2rem;
-}
-.card-of-campus-life img {
-  width: 30%;
-}
 
-.Approval {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5%;
-  padding: 4% 3%;
-}
-.main-Approval {
-  background-color: #385288;
 
-  margin-top: 2rem;
-}
 
-.Approval img {
-  width: 20%;
-  height: 20%;
-  padding: 3%;
-  background-color: white;
-  border-radius: 10px;
-}
 
 li::marker {
   color: #3e0b00;
@@ -395,6 +500,10 @@ td {
     margin-top: -6rem;
     height: auto;
   }
+  .head-center{
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
 
   .why-chose-us {
     display: flex;
@@ -438,9 +547,7 @@ td {
   }
 }
 
-.card:hover {
-  transform: scale(1.1);
-}
+
 
 @media screen and (max-width: 426px) {
   .center {

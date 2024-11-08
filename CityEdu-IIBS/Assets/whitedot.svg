@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="758" height="56.975" viewBox="0 0 758 56.975">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Red_Cap_and_Line_Icon" data-name="Red Cap and Line Icon" transform="translate(-1006 -1351.025)">
+    <g id="Group_1" data-name="Group 1" transform="translate(426.5 82.512)">
+      <g id="school_black_24dp" transform="translate(931.512 1268.512)">
+        <path id="Path_1" data-name="Path 1" d="M0,0H56.975V56.975H0Z" fill="none"/>
+        <path id="Path_2" data-name="Path 2" d="M9.505,31.2v7.923a5.79,5.79,0,0,0,2.652,4.963L24.9,51.78a4.641,4.641,0,0,0,4.9,0l12.748-7.7A5.79,5.79,0,0,0,45.2,39.119V31.2L29.8,40.5a4.641,4.641,0,0,1-4.9,0ZM24.9,3.957,3.412,16.928a2.993,2.993,0,0,0,0,4.963L24.9,34.861a4.641,4.641,0,0,0,4.9,0L50.3,22.483V39.147a2.562,2.562,0,1,0,5.1,0V21.073a2.9,2.9,0,0,0-1.326-2.481L29.8,3.957a4.764,4.764,0,0,0-4.9,0Z" transform="translate(0.391 0.613)" fill="#fff"/>
+      </g>
+    </g>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="329" height="3" rx="1.5" transform="translate(1435 1380)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="332" height="3" rx="1.5" transform="translate(1338 1383) rotate(180)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -174,7 +174,7 @@ form.addEventListener("submit", function (event) {
     phone: numberValue,
     location: locationValue,
     course: courseValue,
-    college: "IIBS Bangalore",
+    college: "IIBS MBA/PGDM Admission Bangalore",
   };
 
   callingApi(value);
@@ -194,7 +194,7 @@ modalForm.addEventListener("submit", function (event) {
     phone: modalNumberValue,
     location: modallocationValue,
     course: modalcourseValue,
-    college: "IIBS Bangalore",
+    college: "IIBS MBA/PGDM Admission Bangalore",
   };
   callingApi(value);
 });
