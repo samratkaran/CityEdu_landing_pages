@@ -118,7 +118,8 @@ button {
   align-items: center;
   margin: 2rem 0;
   text-align: center;
-  color: #fb0f0c;
+  color: black;
+  font-size: 3rem !important;
 }
 .course{
   margin: 2% 2%;
@@ -147,6 +148,8 @@ button {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   
 }
+
+
 
 .Top-Recruiters{
   width: 100%;
