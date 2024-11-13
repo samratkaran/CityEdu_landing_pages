@@ -152,7 +152,7 @@ const callingApi = (value)=>{
     body: JSON.stringify(value),
   };
 
-  fetch("https://drab-rose-whale-fez.cyclic.app/mail", requestOptions)
+  fetch("https://planedu-mailing-service.onrender.com/mail", requestOptions)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);

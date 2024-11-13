@@ -462,6 +462,12 @@ li::marker{
   .text-of-landing-page {
     font-size: 214%;
   }
+  .course-new-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
   .span-text-of-landing-page {
     font-size: 100%;
     font-weight: 500;
