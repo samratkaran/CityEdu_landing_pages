@@ -23,7 +23,7 @@ const Main = () => {
             <p className="span-text-of-page">
             WELCOME TO THE WORLD OF UNMATCHED POTENTIAL AND UNLIMITED OPPORTUNITIES.
             </p>
-            <p className="span-text-of-page-two ">Admission Open 2024-25</p>
+            <p className="span-text-of-page-two ">Admission Open 2025-26</p>
           </div>
 
           <div className="col-md-3">
