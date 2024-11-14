@@ -95,7 +95,76 @@ button {
   margin-bottom: 2rem !important;
 
 }
+/* new content */
 
+.badge {
+  vertical-align: middle;
+  letter-spacing: 0;
+}
+.badge-brand {
+  color: #fff;
+  background-color: #f29a26;
+  border-radius: 50px;
+}
+.badge-pill {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 10rem;
+}
+.badge {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.3125rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+
+mark {
+  color: inherit;
+  padding: 0;
+  background: none;
+  background-image: linear-gradient(120deg, rgba(255, 193, 7, 0.4) 0%, rgba(255, 193, 7, 0.4) 100%);
+  background-repeat: no-repeat;
+  background-size: 0% .3em;
+  background-position: 0 80%;
+  position: relative;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.btn-primary-4 {
+  color: #fff;
+  background-color: #7e1818;
+  border-color: #192d35;
+  box-shadow: none;
+}
+
+.left-section img.icon, .carousel-cell img.icon {
+  position: relative;
+  z-index: 10000;
+  /* top: 70%; */
+  /* bottom: 20%; */
+  height: 72px;
+  width: 72px;
+  /* left: 10%; */
+  transform: translate(0%, -300%);
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* -------------- */
 
 
 

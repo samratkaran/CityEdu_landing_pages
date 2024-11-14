@@ -14,7 +14,7 @@ const modal = document.querySelector(".modal");
 console.log(openModalButtons,closeModalButton)
 openModalButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    console.log("Open me");
+   
     modal.style.display = "block";
   });
 });
@@ -88,7 +88,6 @@ let modalnameValue = ""
 let modalemailValue = ""
 let   modalNumberValue = ""
 let modallocationValue = ""
-let modalcollegeValue = ""
 let modalcourseValue = ""
 
 
@@ -126,15 +125,15 @@ modalLocationElement.addEventListener("input",() =>{
 
 // ----------------------end of location input---------------
 
-let modalcollegeElement = document.querySelector(".modalCourseInput");
-modalcollegeElement.addEventListener("input",() =>{
-  modalcollegeValue = event.target.value
-  console.log(modalcollegeValue)
-});
+// let modalcollegeElement = document.querySelector(".modalCourseInput");
+// modalcollegeElement.addEventListener("input",() =>{
+//   modalcollegeValue = event.target.value
+//   console.log(modalcollegeValue)
+// });
 
 // -------------------end if college input-------------------
 
-let modalCourseElement = document.querySelector(".modalCollegeInput");
+let modalCourseElement = document.querySelector(".modalCourseInput");
 modalCourseElement.addEventListener("input",() =>{
   modalcourseValue = event.target.value
   console.log(modalcourseValue)
@@ -153,7 +152,7 @@ const callingApi = (value)=>{
     body: JSON.stringify(value),
   };
 
-  fetch("https://drab-rose-whale-fez.cyclic.app/mail", requestOptions)
+  fetch("https://planedu-mailing-service.onrender.com/mail", requestOptions)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -161,8 +160,6 @@ const callingApi = (value)=>{
       return response.json(); // Parse the response body as JSON
     })
     .then((data) => {
-      // console.log("POST request successful:", data);
-      alert("we have recorded your response!");
       form.reset();
       document.querySelector("#changeMe").innerHTML = `  <div class="col-md-6 mb-2 mt-3 main-thank-you-of-landing-page">
       <h3>Thank you For Inquiring 
@@ -191,7 +188,7 @@ form.addEventListener("submit", function (event) {
     phone: numberValue, 
     location: locationValue,
     course: courseValue, 
-    college:"ISME College",
+    college:"ISME Buiseness School",
   };
 
   callingApi(value) 
@@ -206,6 +203,7 @@ form.addEventListener("submit", function (event) {
 const modalForm = document.getElementById("mySecondForm");
 modalForm.addEventListener("submit", function (event) {
   event.preventDefault();
+  modal.style.display = "none";
   const value = {
 
 
@@ -213,8 +211,8 @@ modalForm.addEventListener("submit", function (event) {
     email: modalemailValue,
     phone: modalNumberValue,
     location:modallocationValue,
-    course: modalcollegeValue,
-    college:modalcourseValue       ,
+    course: modalcourseValue,
+    college:"ISME Buiseness School"       ,
 };
 callingApi(value)
 
