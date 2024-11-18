@@ -2,7 +2,7 @@
   overflow: hidden !important;
   overflow-x: hidden;
 }
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -18,7 +18,6 @@ body{
   overflow: hidden;
 }
 
-
 .main-head-text-of-landing-page {
   margin-top: 0rem !important;
   display: flex;
@@ -26,12 +25,13 @@ body{
   gap: 6rem;
   align-items: center;
   background-size: 100%;
-  background-image: linear-gradient( to bottom, #7e7e7e42, #2222228c ), url(./Assets/ISME-back-image.webp);
+  background-image: linear-gradient(to bottom, #7e7e7e42, #2222228c),
+    url(./Assets/ISME-back-image.webp);
   background-repeat: no-repeat;
   overflow: hidden;
   height: 100vh;
 }
-.main-text{
+.main-text {
   font-size: 5rem;
   padding-bottom: 20rem;
 }
@@ -51,8 +51,6 @@ body{
   color: white;
   font-family: "Diphylleia", serif;
   text-shadow: #06579ed6 3px 3px 5px;
-
-
 }
 
 .form-of-landing-page {
@@ -87,14 +85,13 @@ button {
   align-items: center;
   margin: 2rem 0;
   text-align: center;
-  color: #7F1919 ;
+  color: #7f1919;
 }
-.why-chose-us{
+.why-chose-us {
   padding: 1% 1%;
-   transition:  background-color 0.5s ease;
+  transition: background-color 0.5s ease;
 
   margin-bottom: 2rem !important;
-
 }
 /* new content */
 
@@ -107,11 +104,10 @@ button {
   align-items: center !important;
   /* gap: 2rem; */
   position: relative;
-   /* left: -1005.81px; */
-    box-sizing: border-box;
-     width:100%;
-     padding: 8% 5%;
-     
+  /* left: -1005.81px; */
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8% 5%;
 }
 .vc_column_container .vc_column-inner {
   box-sizing: border-box;
@@ -135,17 +131,15 @@ button {
   display: inline-block;
   font-size: 72px;
 }
-.image-section-container{
+.image-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 3rem;
-  
 }
-.image-section{
+.image-section {
   width: 12rem;
-
 }
 .home-accreditation-section img {
   width: 8rem;
@@ -157,8 +151,6 @@ button {
 
 /* -------------- */
 
-
-
 /* Cards Spiceal-------------------------------------------- */
 
 .cards {
@@ -166,7 +158,7 @@ button {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap:2rem;
+  gap: 2rem;
 }
 
 .cards .red {
@@ -200,33 +192,30 @@ button {
   margin: auto;
 }
 
-
-
-
-
 /* Cards Spiceal-------------------------------------------- */
 
-.campus-life{
+.campus-life {
   display: flex;
   justify-content: center;
   margin-bottom: 5%;
   gap: 4rem;
-  padding:  0 3%;
+  padding: 0 3%;
   flex-wrap: wrap;
 }
-.card-of-campus-life{
+.card-of-campus-life {
   box-shadow: #3b1d6453 0px 4px 5px;
-  display: flex;flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 17rem;
   text-align: center;
   gap: 1rem;
 }
-.card-of-campus-life img{
+.card-of-campus-life img {
   width: 30%;
 }
-.Top-Recruiters{
+.Top-Recruiters {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -236,10 +225,9 @@ button {
   object-fit: cover;
 }
 
-.Top-Recruiters img{
+.Top-Recruiters img {
   width: 35%;
   height: 40%;
-
 }
 
 .accordion {
@@ -255,8 +243,6 @@ button {
   border: 1px solid #3b1d6453;
   margin-bottom: 8px;
   overflow: hidden;
-  
-
 }
 
 .accordion-title {
@@ -266,7 +252,6 @@ button {
   cursor: pointer;
 }
 
-
 .accordion-content {
   padding: 10px;
   display: none;
@@ -275,32 +260,26 @@ button {
 .accordion-section.active .accordion-content {
   display: block;
 }
-.ranking-new{
-  display: flex; justify-content: center; align-items: center;
+.ranking-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-li::marker{
+li::marker {
   color: #06589e;
 }
 
-.why-chose-us{
+.why-chose-us {
   display: flex;
   gap: 3rem;
 }
 
-
-
-
-.footer-of-page-alliance{
-  
-
-  background-color: #06589e ;
-
+.footer-of-page-alliance {
+  background-color: #06589e;
 }
 
-.all-link-in-footer i{
+.all-link-in-footer i {
   color: white;
 }
 .card-body {
@@ -315,8 +294,6 @@ li::marker{
   justify-content: center !important;
   align-items: center !important;
 }
-
-
 
 /* model styling start from here */
 
@@ -345,8 +322,6 @@ li::marker{
   height: 1rem;
   margin-bottom: -30px;
 }
-
-
 
 /* ----------------------------------------- */
 
@@ -389,7 +364,6 @@ li::marker{
   transform: scale(1.1); /* Increase the scale factor as needed */
 }
 
-
 @keyframes slide {
   0% {
     transform: translateX(0);
@@ -415,13 +389,17 @@ li::marker{
     gap: 6rem;
     align-items: center;
     background-size: 100%;
-    background-image: linear-gradient( to bottom, #7e7e7e42, #2222228c ), url(./Assets/ISME-back-image.webp);
+    background-image: linear-gradient(to bottom, #7e7e7e42, #2222228c),
+      url(./Assets/ISME-back-image.webp);
     background-repeat: no-repeat;
     overflow: hidden;
     height: auto;
   }
-  .ranking-new{
-    display: flex; justify-content: center; align-items: center;flex-wrap: wrap;
+  .ranking-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .form-of-landing-page {
@@ -434,26 +412,18 @@ li::marker{
     justify-content: center;
     align-items: center;
     animation: revealAnimationright 2s forwards;
-    margin-top: 0rem;
-   
+    /* margin-top: -7rem; */
   }
-.main-text{
-  font-size: 206%;
-}
+  .main-text {
+    font-size: 206%;
+  }
 
-
-  .why-chose-us{
+  .why-chose-us {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
     padding-left: 4%;
   }
-  
-
-
-
-
-
 }
 
 .card:hover {
@@ -465,12 +435,6 @@ li::marker{
     width: 90%;
   }
 }
-
-
-
-
-
-
 
 /* ------------ Thankyoupage CSS------------------------------- */
 
