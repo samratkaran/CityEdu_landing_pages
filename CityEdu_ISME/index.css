@@ -275,6 +275,9 @@ button {
 .accordion-section.active .accordion-content {
   display: block;
 }
+.ranking-new{
+  display: flex; justify-content: center; align-items: center;
+}
 
 
 
@@ -404,6 +407,21 @@ li::marker{
   }
   .span-text-of-landing-page {
     font-size: 100%;
+  }
+  .main-head-text-of-landing-page {
+    margin-top: 0rem !important;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    background-size: 100%;
+    background-image: linear-gradient( to bottom, #7e7e7e42, #2222228c ), url(./Assets/ISME-back-image.webp);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: auto;
+  }
+  .ranking-new{
+    display: flex; justify-content: center; align-items: center;flex-wrap: wrap;
   }
 
   .form-of-landing-page {
