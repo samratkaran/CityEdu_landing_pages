@@ -434,7 +434,7 @@ li::marker{
     justify-content: center;
     align-items: center;
     animation: revealAnimationright 2s forwards;
-    margin-top: -7rem;
+    margin-top: 0rem;
    
   }
 .main-text{
