@@ -10,7 +10,7 @@ h1{
   font-family: "Fontspring";
 }
 
-.heder-of-city-guidde {
+/* .heder-of-city-guidde {
   position: fixed;
   height: 5rem;
   display: flex;
@@ -20,19 +20,21 @@ h1{
   z-index: 100;
   box-sizing: content-box !important;
   overflow: hidden;
-}
+} */
 
 
 .main-head-text-of-landing-page {
-  margin-top: 5rem !important;
+  margin-top: 0rem !important;
   display: flex;
+  padding-top: 4rem;
   justify-content: center;
   gap: 6rem;
-  align-items: center;
+  align-items: baseline;
   background-size: 100%;
-  background-image: linear-gradient( to bottom, #7e7e7e42, #2222228c ), url(./Assets/main-Back-image.webp);
+  background-image: linear-gradient( to bottom, #7e7e7e42, #2222228c ), url(./Assets/back-image.jpg);
   background-repeat: no-repeat;
   overflow: hidden;
+  height: 100vh;
 }
 .main-text{
   font-size: 4rem;
@@ -104,6 +106,7 @@ button {
   justify-content: center;
   align-items: flex-start;
   gap: 2rem;
+  padding: 2%;
 }
 
 .course-and-collage {
@@ -462,6 +465,25 @@ li::marker{
   .text-of-landing-page {
     font-size: 214%;
   }
+  .main-head-text-of-landing-page {
+    margin-top: 0rem !important;
+    display: flex;
+    padding-top: 4rem;
+    justify-content: center;
+    gap: 6rem;
+    align-items: baseline;
+    background-size: cover;
+    background-image: linear-gradient( to bottom, #7e7e7e42, #2222228c ), url(./Assets/back-image.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height:auto;
+  }
+  .head-text-of-landing-page{
+    margin-top: -4rem;
+  }
+  .logo-image{
+    width: 50%;
+  }
   .course-new-sec{
     display: flex;
     justify-content: center;
@@ -469,7 +491,7 @@ li::marker{
     margin: auto;
   }
   .span-text-of-landing-page {
-    font-size: 100%;
+    font-size: 70%;
     font-weight: 500;
     text-shadow: 3px 3px 5px black;
   }
