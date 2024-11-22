@@ -45,6 +45,7 @@ h1{
 }
 .head-text-of-landing-page {
   animation: revealAnimation 2s forwards;
+  margin-right: 15px;
 }
 
 .text-of-landing-page {
