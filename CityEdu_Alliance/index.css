@@ -308,7 +308,7 @@ button {
   justify-content: center;
 }
 .item{
-  width: 18rem;
+  width: 16rem;
 }
 /* spelical card for courses */
 
@@ -413,8 +413,15 @@ button {
   .header-image{
     width: 12rem;
   }
+  .head-font{
+    font-size: 1rem !important;
+    padding-right: 0%;
+  }
+  .academics-img img{
+    width: 90% !important;
+  }
   .main-head-text-of-landing-page {
-    margin-top: 3rem !important;
+    margin-top: 0rem !important;
     display: flex;
     justify-content: center;
     gap: 6rem;
@@ -427,7 +434,7 @@ button {
   }
 
   .text-of-landing-page {
-    font-size: 210%;
+    font-size: 203%;
     margin-top: -1rem;
   }
   .new-text {
@@ -486,6 +493,7 @@ button {
     text-align: center !important;
     height: 80% !important;
   }
+  
 }
 
 /* ------------ Thankyoupage CSS------------------------------- */
