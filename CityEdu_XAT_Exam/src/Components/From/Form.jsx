@@ -104,7 +104,7 @@ const Form = () => {
               required
             />
 
-            <button type="submit" class="btn button-of-form" style={{}}>
+            <button type="submit" class="btn btn-primary button-of-form" style={{}}>
               Apply Now
             </button>
           </form>

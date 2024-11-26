@@ -4,35 +4,34 @@ import HeadText from "./HeadText/HeadText";
 import { Bounce, Fade } from "react-awesome-reveal";
 import { useState } from "react";
 import Modal from "./Modal/Modal";
-import CourseCard from "./cards/CourseCard";
+
+// import CourseCard from "./cards/CourseCard";
 
 const Main = () => {
   const [show, setShow] = useState(false);
-  const [activeSection, setActiveSection] = useState("bachelor"); // Initial active section
+  // const [activeSection, setActiveSection] = useState("bachelor"); // Initial active section
 
-  const handleSectionClick = (section) => {
-    // setActiveSection(section);
-  };
+  // const handleSectionClick = (section) => {
+  //   // setActiveSection(section);
+  // };
   return (
     <>
-      <Fade cascade damping={0.5}>
+      <Fade cascade damping={0.1}>
         <div className="row main-head-text-of-landing-page">
           <div className="col-md-8 text-white">
-            <p className="head-text-of-page"> SAPTHAGIRI </p>
-            <p className="second-head-text-of-page">NPS UNIVERSITY,BANGALORE</p>
-            <p className="span-text-of-page">
-            WELCOME TO THE WORLD OF UNMATCHED POTENTIAL AND UNLIMITED OPPORTUNITIES.
-            </p>
-            <p className="span-text-of-page-two ">Admission Open 2025-26</p>
+            <p className="head-text-of-page"> XAT 2025: Comprehensive Guide to Excel in Your MBA Journey </p>
+            
+            <p className="span-text-of-page">Why wait? Hurry up and Plan your MBA/PGDM Journey with PlanEdu - Sign Up Now for Personalized Guidance!</p>
+            {/* <p className="span-text-of-page-two ">Admission Open 2025-26</p> */}
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-4">
             <Form />
           </div>
         </div>
       </Fade>
       <div className="main-container mb-5">
-        <HeadText value={"overview"}></HeadText>
+        {/* <HeadText value={"overview"}></HeadText> */}
         <div className="row main-overview-of-page">
           <div className="col-md-4">
             <img
@@ -43,130 +42,95 @@ const Main = () => {
           </div>
           <div className="col-md-7 p-3">
             <p style={{fontSize:"1.1rem"}}>
-              Sapthagiri NPS University, Bangalore, is committed to imparting
-              quality engineering education to develop students into responsible
-              citizens equipped with the skills and knowledge to excel in their
-              fields. The university emphasizes a blend of theoretical and
-              practical learning, ensuring that graduates are well-prepared to
-              meet the challenges of the engineering industry. <br /> <br />
-              <ul style={{listStyle:"none", paddingLeft:"0rem"}} className="overview-list">
-               <li><b>Comprehensive Curriculum:</b> The courses are designed to cover fundamental and advanced topics, fostering a deep understanding of engineering principles.</li>
-               <li><b>State-of-the-Art Facilities:</b> Equipped with modern labs and research facilities to support hands-on learning and innovation.</li>
-               <li><b>Experienced Faculty:</b> A team of highly qualified and experienced faculty members dedicated to student success.</li>
-               <li><b>Research and Innovation:</b> Encouragement of research activities and innovation through various initiatives and collaborations.</li>
-               
-              </ul>
+            The XLRI Jamshedpur administers the XAT (Xavier Aptitude Test) a national-level entrance examination, conducted once a year to gain admission into MBA and PGDM programs at over 160 top B-schools across India. 
+            <br /> <br />
+
+The XAT 2025 exam, just 1.5 months away, is a key step in shaping your management career, opening doors to top MBA programs, especially at XLRI Jamshedpur and other institutions accepting XAT scores. Known for its challenging pattern, XAT tests analytical, decision-making, and verbal skills, making it essential for admission to the best management institutes in India. At PlanEdu, we specialize in MBA career advice, assisting students in selecting universities that best suit their interests, objectives, and financial situation. Our advice guarantees a smooth path to success, regardless of your goals i.e. IIMs or other prestigious B-schools.
             </p>
           </div>
         </div>
-        <HeadText value={"B.Tech Courses Offered"} />
+        <HeadText value={"Important Dates"} />
         <div className="row">
-        <div className="col-md-12 m-auto h-auto App course-offerd" >
-            <div className="tabs">
-              
-             
-            </div>
-            <div className="content">
-              {activeSection === "bachelor" && (
-                <div className="bachelor-and-section col-md-12">
-                  <CourseCard
-                    CourseName={"Computer Science & Engineering"}
-                    DegreeName={"Bachelor"}
-                    Duration={"4 Years"}
-                    imageUrl={require("../Assets/couese-image/Computer Science & Engineering.jpeg")}
-                  />
-                  <CourseCard
-                    CourseName={
-                      "CSE (Artificial Intelligence & Machine Learning)"
-                    }
-                    DegreeName={"Bachelor"}
-                    Duration={"4 Years"}
-                    imageUrl={require("../Assets/couese-image/Artificial Intelligence and Machine Learning.jpeg")}
-                  />
-                  <CourseCard
-                    CourseName={
-                      "CSE (Artificial Intelligence and Data Science)"
-                    }
-                    DegreeName={"Bachelor"}
-                    Duration={"4 Years"}
-                    imageUrl={require("../Assets/couese-image/ai-and-data-science.jpg")}
-                  />
+  <div className="col-md-11 m-auto">
+    <div className="exam-dates-container">
+      <table className="table table-borderless">
+        <thead>
+          <tr style={{ backgroundColor: "#1E4D92", color: "white" }}>
+            <th className="exam-date">Procedure</th>
+            <th className="exam-date">Dates</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>XAT 2025 Exam Registration</td>
+            <td>July 15 to November 30, 2024 (Ongoing)</td>
+          </tr>
+          <tr>
+            <td>XAT 2025 Admit Card Download Starts</td>
+            <td>December 20, 2024</td>
+          </tr>
+          <tr>
+            <td>XAT 2025 Exam</td>
+            <td>January 5, 2025</td>
+          </tr>
+          <tr>
+            <td>The XAT 2025 Response Sheet Release</td>
+            <td>January 2025 (Tentative)</td>
+          </tr>
+          <tr>
+            <td>XAT 2025 Result</td>
+            <td>January 2025 (Tentative)</td>
+          </tr>
+          <tr>
+            <td>XAT 2025 Cut-Offs Release</td>
+            <td>January 2025 (Tentative)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
 
-                  <CourseCard
-                    CourseName={"CSE (Data Science)"}
-                    DegreeName={"Bachelor"}
-                    Duration={"4 Years"}
-                    imageUrl={require("../Assets/couese-image/Computer Science data science.jpeg")}
-                  />
-                  <CourseCard
-                    CourseName={"CSE (Cyber Security)"}
-                    DegreeName={"Bachelor"}
-                    Duration={"4 Years"}
-                    imageUrl={require("../Assets/couese-image/Computer Science(Cyber Security).jpeg")}
-                  />
-                  <CourseCard
-                    CourseName={"Electronics & Communication Engineering"}
-                    DegreeName={"Bachelor"}
-                    Duration={"4 Years"}
-                    imageUrl={require("../Assets/couese-image/Electronics & Communication Engineering.jpeg")}
-                  />
-
-                  <CourseCard
-                    CourseName={"Electrical & Electronics Engineering"}
-                    DegreeName={"Bachelor"}
-                    Duration={"4 Years"}
-                    imageUrl={require("../Assets/couese-image/LL.B..jpg")}
-                  />
-                </div>
-              )}
-
-            </div>
-          </div>
-        </div>
-        <HeadText value={"Placement"} />
+        <HeadText value={"XAT 2025: Syllabus and Exam Pattern"} />
         <div className="row ">
-          <div class="col-md-12 ">
-            <h5
-              style={{ textAlign: "center", padding: "0% 5%" }}
-              className="col-md-11 m-auto pb-4 "
-            >
-              Here is the placement Statistics for Sapthagiri NPS University in
-              Bangalore, specifically for engineering courses
-            </h5>
-            <div class="Students-component ">
-              <ul className="boxes-of-palcement d-flex justify-content-center gap-5">
-                <li class="c2" style={{ backgroundColor: "#a61a32" }}>
-                  {" "}
-                  <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
-                    <i class="fa fa-inr" aria-hidden="true"></i> 35{" "}
-                    <small style={{ fontSize: "1.1rem !important" }}>LPA</small>
-                  </span>{" "}
-                  Highest Package{" "}
-                </li>
-                <li class="c3" style={{ backgroundColor: "#034ea2" }}>
-                  {" "}
-                  <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
-                    <i class="fa fa-inr" aria-hidden="true"></i> 100+
-                  </span>
-                  Total Recruiters
-                </li>
-                <li class="c4" style={{ backgroundColor: "#00abe6" }}>
-                  {" "}
-                  <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
-                    <i class="fa fa-inr" aria-hidden="true"></i> 6{" "}
-                    <small style={{ fontSize: "1.1rem !important" }}>LPA</small>
-                  </span>{" "}
-                  Average Package{" "}
-                </li>
-                <li class="c4" style={{ backgroundColor: "#0011e6" }}>
-                  {" "}
-                  <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
-                    <i class="fa fa-inr" aria-hidden="true"></i> 80%{" "}
-                  </span>{" "}
-                  Placed Students
-                </li>
-              </ul>
-            </div>
+          <div class="col-md-11 m-auto">
+          <div className="xat-syllabus-container">
+      {/* Decision Making Section */}
+      <div className="syllabus-section">
+        <h4>Decision Making</h4>
+        <p>
+          Assumptions, Grouping, Conditioning, Complex Arrangement, Caselets,
+          Premises, Data Arrangement, Conclusions, etc.
+        </p>
+      </div>
+
+      {/* Verbal and Logical Ability Section */}
+      <div className="syllabus-section">
+        <h4>Verbal and Logical Ability</h4>
+        <p>
+          Grammar, Vocabulary, Reading Comprehension, Critical Reasoning,
+          Parajumble, Analogy, Fill in the Blanks, etc.
+        </p>
+      </div>
+
+      {/* Quantitative Ability & Data Interpretation Section */}
+      <div className="syllabus-section">
+        <h4>Quantitative Ability & Interpretation</h4>
+        <p>
+          Percentage, Geometry, Algebra, Arithmetic, Tables, Data Interpretation,
+          Pie Charts, Bar Diagrams, Surds and Indices, Mensuration, etc.
+        </p>
+      </div>
+
+      {/* General Knowledge Section */}
+      <div className="syllabus-section">
+        <h4>General Knowledge</h4>
+        <p>
+          Sports, Science, Static GK, Government, Economy, Business, Politics,
+          Award, Prizes and the World, Constitution of India, etc.
+        </p>
+      </div>
+    </div>
           </div>
         </div>
         <HeadText value={"top Recruiters"} />

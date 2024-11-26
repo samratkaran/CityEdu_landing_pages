@@ -1,16 +1,16 @@
 .heder-of-city-guidde {
-  position: fixed;
+  position: absolute;
   height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: transparent;
   z-index: 100;
   box-sizing: content-box !important;
   width: 100%;
   overflow: hidden;
-  border-bottom: 1px solid rgb(255, 255, 255);
-  box-shadow: 2px 2px 2px rgb(255, 255, 255);
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+  /* box-shadow: 2px 2px 2px /rgb(255, 255, 255); */
 }
 img {
   width: 5rem;
