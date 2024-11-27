@@ -118,6 +118,12 @@ body {
   align-items: baseline;
   gap: 1rem;
 }
+.course-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 
 .App {
   text-align: center;

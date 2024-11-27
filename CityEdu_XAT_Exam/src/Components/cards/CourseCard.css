@@ -1,12 +1,13 @@
 .course-card-main {
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   padding-bottom: 2rem;
   width: 19rem !important;
-  height: 17rem;
+  height: 23rem;
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   /* flex-direction: column; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* gap: 5rem; */
   border: 1px solid rgb(229, 207, 207);
   text-align: left;
@@ -16,12 +17,13 @@
 .all-data-of-course {
   padding-left: 1rem;
   display: flex;
+  gap: 5px;
   flex-direction: column;
   justify-content: space-between;
   
 }
 .course-card-main img {
-  width: 27rem;
+  width: 19rem;
   margin: auto;
   height: 15rem;
 }

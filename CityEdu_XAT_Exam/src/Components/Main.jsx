@@ -4,7 +4,12 @@ import HeadText from "./HeadText/HeadText";
 import { Bounce, Fade } from "react-awesome-reveal";
 import { useState } from "react";
 import Modal from "./Modal/Modal";
-
+import CourseCard from "./cards/CourseCard";
+import delhi from "../Assets/New Delhi Institute of Management..jpg"
+import bits from "../Assets/BITS Pilani..jpg"
+import woxsen from "../Assets/Woxsen University..jpg"
+import xlri from "../Assets/XLRI Xavier School of Management..jpg"
+import joseph from "../Assets/St. Joseph's Institute of Management..jpg"
 // import CourseCard from "./cards/CourseCard";
 
 const Main = () => {
@@ -34,11 +39,7 @@ const Main = () => {
         {/* <HeadText value={"overview"}></HeadText> */}
         <div className="row main-overview-of-page">
           <div className="col-md-4">
-            <img
-              className="overview-image"
-              src={require("../Assets/overview.png")}
-              alt=""
-            />
+
           </div>
           <div className="col-md-7 p-3">
             <p style={{fontSize:"1.1rem"}}>
@@ -92,77 +93,96 @@ The XAT 2025 exam, just 1.5 months away, is a key step in shaping your managemen
 </div>
 
         <HeadText value={"XAT 2025: Syllabus and Exam Pattern"} />
-        <div className="row ">
-          <div class="col-md-11 m-auto">
-          <div className="xat-syllabus-container">
-      {/* Decision Making Section */}
-      <div className="syllabus-section">
-        <h4>Decision Making</h4>
-        <p>
-          Assumptions, Grouping, Conditioning, Complex Arrangement, Caselets,
-          Premises, Data Arrangement, Conclusions, etc.
-        </p>
-      </div>
-
-      {/* Verbal and Logical Ability Section */}
-      <div className="syllabus-section">
-        <h4>Verbal and Logical Ability</h4>
-        <p>
-          Grammar, Vocabulary, Reading Comprehension, Critical Reasoning,
-          Parajumble, Analogy, Fill in the Blanks, etc.
-        </p>
-      </div>
-
-      {/* Quantitative Ability & Data Interpretation Section */}
-      <div className="syllabus-section">
-        <h4>Quantitative Ability & Interpretation</h4>
-        <p>
-          Percentage, Geometry, Algebra, Arithmetic, Tables, Data Interpretation,
-          Pie Charts, Bar Diagrams, Surds and Indices, Mensuration, etc.
-        </p>
-      </div>
-
-      {/* General Knowledge Section */}
-      <div className="syllabus-section">
-        <h4>General Knowledge</h4>
-        <p>
-          Sports, Science, Static GK, Government, Economy, Business, Politics,
-          Award, Prizes and the World, Constitution of India, etc.
-        </p>
-      </div>
+      <div className="row">
+      <div className="col-md-11 m-auto">
+      <div className="exam-dates-container">
+      
+      <table className="table table-borderless">
+        <thead>
+          <tr  style={{ backgroundColor: "#1E4D92", color: "white" }}>
+            <th className="exam-date">Section</th>
+            <th className="exam-date">Syllabus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Decision Making</td>
+            <td>
+              Assumptions, Grouping, Conditioning, Complex Arrangement,
+              Caselets, Premises, Data Arrangement, Conclusions, etc.
+            </td>
+          </tr>
+          <tr>
+            <td>Verbal and Logical Ability</td>
+            <td>
+              Grammar, Vocabulary, Reading Comprehension, Critical Reasoning,
+              Parajumble, Analogy, Fill in the Blanks, etc.
+            </td>
+          </tr>
+          <tr>
+            <td>Quantitative Ability & Data Interpretation</td>
+            <td>
+              Percentage, Geometry, Algebra, Arithmetic, Tables, Data
+              Interpretation, Pie Charts, Bar Diagrams, Surds and Indices,
+              Mensuration, etc.
+            </td>
+          </tr>
+          <tr>
+            <td>General Knowledge</td>
+            <td>
+              Sports, Science, Static GK, Government, Economy, Business,
+              Politics, Award, Prizes and the World, Constitution of India, etc.
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-          </div>
-        </div>
-        <HeadText value={"top Recruiters"} />
-        <div
-          className="row main-Top-Recruiters"
-          style={{ overflowX: "hidden" }}
-        >
-          <div className="col-md-12 Top-Recruiters">
-            <img src={require("../Assets/slide-image/01.png")} alt="" />
-            <img src={require("../Assets/slide-image/06.png")} alt="" />
-            <img
-              src={require("../Assets/slide-image/Celebal Technologies.jpeg")}
-              alt=""
-            />
-            <img
-              src={require("../Assets/slide-image/Focus Edumatics.jpeg")}
-              alt=""
-            />
-            <img
-              src={require("../Assets/slide-image/HCL Technologies.png")}
-              alt=""
-            />
-            <img
-              src={require("../Assets/slide-image/L&T Technology Services.jpeg")}
-              alt=""
-            />
-            <img src={require("../Assets/slide-image/MindTree.jpeg")} alt="" />
-            <img src={require("../Assets/slide-image/Skolar.png")} alt="" />
-            <img src={require("../Assets/slide-image/TCS.png")} alt="" />
-            <img src={require("../Assets/slide-image/congnizent.jpg")} alt="" />
-            <img src={require("../Assets/slide-image/01.png")} alt="" />
-            <img src={require("../Assets/slide-image/06.png")} alt="" />
+      </div>
+      </div>
+      <HeadText value={"XAT Exam Pattern 2025"} />
+        <div className="row">
+          <div className="col-md-11 m-auto">
+          <div className="xat-sections-container">
+          <p>The format of the XAT exam changed. There won't be an essay writing section this year, and there will only be 20 questions in the GK section. The exam will last for 180 minutes. The exam schedule was released concurrently with the announcement of the modifications. The sectional information according to the XAT exam pattern 2025 is as follows:</p>
+      <h2>XAT 2025 Exam Pattern</h2>
+      <table className="table table-bordered">
+        <thead>
+          <tr style={{ backgroundColor: "#1E4D92", color: "white" }}>
+            <th className="exam-date">Section</th>
+            <th className="exam-date">Number of Questions</th>
+            <th className="exam-date">Total Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Decision Making</td>
+            <td>21</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>Verbal and Logical Ability</td>
+            <td>26</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>Quantitative Ability & Data Interpretation</td>
+            <td>28</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>General Knowledge</td>
+            <td>20</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>95</strong></td>
+            <td><strong>95</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
           </div>
         </div>
         <Bounce duration={1000}>
@@ -185,107 +205,28 @@ The XAT 2025 exam, just 1.5 months away, is a key step in shaping your managemen
           </div>
         </Bounce>
 
-        <HeadText value="Why Choose Sapthagiri University?" />
-        <div className="row d-flex justify-content-center align-items-center ">
-          {/* <div className="col-md-4 d-none d-md-block m-auto">
-            <img
-              src={require("../Assets/f14d6c0a5773675a110f0fbb4988efa6-removebg-preview.png")}
-              alt=""
-              className="why-chose-us-image"
-            />
-          </div> */}
-          <div className="col-md-12 ">
-            <ul className="why-chose-reva">
-              <Fade delay={200}>
-                <li>Modern Infrastructure</li>
-              </Fade>
-              <Fade delay={400}>
-                <li>Practical Skills Focus</li>
-              </Fade>
-
-              <Fade delay={600}>
-                <li> Industry Readiness</li>
-              </Fade>
-              <Fade delay={800}>
-                <li>Research Opportunities</li>
-              </Fade>
-              <Fade delay={1000}>
-                <li>Strong Placement Record</li>
-              </Fade>
-
-              <Fade delay={1200}>
-                <li>Supportive Facult</li>
-              </Fade>
-              <Fade delay={1400}>
-                <li>Convenient Location</li>
-              </Fade>
-              <Fade delay={1600}>
-                <li> Diverse Engineering Departments</li>
-              </Fade>
-              <Fade delay={1800}>
-                <li> International Collaborations</li>
-              </Fade>
-              <Fade delay={2000}>
-                <li>Holistic Development</li>
-              </Fade>
-            </ul>
+        <HeadText value="Top Colleges Accepting XAT Scores" />
+        <div className="row">
+        <p className="col-md-11 m-auto mb-3">One of the most widely recognized test results in India is the XAT. Members of the Xavier Association of Management Institutes (XAMI) and more than 1,000 other MBA schools in India accept XAT scores in addition to XLRI, Jamshedpur. These colleges also use GD/WAT and PI in their admissions procedure. Given below are a few popular B-schools accepting XAT scores for admission:</p>
+          <div className="course-card">
+            <CourseCard CourseName={"MBA PGDM"} imageUrl={xlri}/>
+            <CourseCard/>
+            <CourseCard/>
+            <CourseCard/>
           </div>
         </div>
 
         <HeadText value={"Campus Life"} />
         <Fade delay={500} direction="left">
           <div className="row main-campus-life">
-            <div className="col-md-12 campus-life">
-              <div class="card-of-campus-life">
-                {" "}
-                <img src={require("../Assets/hostel.png")} alt="" />{" "}
-                <h6> HOSTEL ACCOMMODATION</h6>
-              </div>
-              <div class="card-of-campus-life">
-                {" "}
-                <img src={require("../Assets/library.png")} alt="" />{" "}
-                <h6>LIBRARY</h6>
-              </div>
-              <div class="card-of-campus-life">
-                {" "}
-                <img src={require("../Assets/sports.png")} alt="" />{" "}
-                <h6>SPORTS COMPLEX</h6>
-              </div>
-              <div class="card-of-campus-life">
-                {" "}
-                <img src={require("../Assets/movie-theater.png")} alt="" />{" "}
-                <h6>AUDITORIUM's</h6>
-              </div>
-              <div class="card-of-campus-life">
-                {" "}
-                <img src={require("../Assets/cafe.png")} alt="" />{" "}
-                <h6>CAFETERIA</h6>
-              </div>
-              <div class="card-of-campus-life">
-                {" "}
-                <img src={require("../Assets/gym.png")} alt="" /> <h6>GYM</h6>
-              </div>
-
-              <div class="card-of-campus-life">
-                {" "}
-                <img src={require("../Assets/wifi.png")} alt="" />{" "}
-                <h6>WI-FI CAMPUS</h6>
-              </div>
-              <div class="card-of-campus-life">
-                {" "}
-                <img src={require("../Assets/home (1).png")} alt="" />{" "}
-                <h6>Air-conditioned classrooms </h6>
-              </div>
-            </div>
+            
           </div>
         </Fade>
         <HeadText value="Approvals and Accreditations" />
         <Fade delay={250}>
           <div className="row main-approval-and-acredation">
             <div className="col-md-12 approval-and-acredation">
-              <img src={require("../Assets/naccA.jpg")} alt="" />
-              <img src={require("../Assets/AICTE.png")} alt="" />
-              <img src={require("../Assets/vtu.jpg")} alt="" />
+
             </div>
           </div>
         </Fade>

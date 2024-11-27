@@ -1,28 +1,23 @@
 import React from "react";
 import "./CourseCard.css";
-import { FcGraduationCap } from "react-icons/fc";
-import { FcOvertime } from "react-icons/fc";
+
 import { useState } from "react";
 import Modal from "../Modal/Modal";
 import { FaCircleArrowRight } from "react-icons/fa6";
 
-const CourseCard = ({ imageUrl, CourseName, DegreeName, Duration }) => {
+const CourseCard = ({ imageUrl, CourseName  }) => {
   const [show, setShow] = useState(false);
   return (
     <>
-      <div className="row">
-        <div className="col-md-12 course-card-main">
-          {/* <div>
+      
+        <div className=" course-card-main">
+          <div>
             <img src={imageUrl} alt="" />
-          </div> */}
+          </div>
           <div className="all-data-of-course">
-            <h3 className="text-head" style={{fontSize:"1.5rem"}}>{CourseName}</h3>
-            <p>
-              <FcGraduationCap /> Degree: {DegreeName}
-            </p>
-            <p>
-              <FcOvertime /> Duration: {Duration}
-            </p>
+            <h5 className="text-head" >{CourseName}</h5>
+           
+          
 
             {show ? <Modal cancel={setShow} /> : null}
             <button
@@ -35,7 +30,7 @@ const CourseCard = ({ imageUrl, CourseName, DegreeName, Duration }) => {
             </button>
           </div>
         </div>
-      </div>
+      
     </>
   );
 };
