@@ -14,7 +14,7 @@
   /* box-shadow: 2px 2px 5px rgb(255, 255, 255); */
 }
 img {
-  width: 22rem;
+  width: 30rem;
   margin: 1% 2%;
 }
 span {
@@ -29,7 +29,7 @@ span {
     padding-right: 10px;
   }
   img {
-    width: 10rem;
+    width: 14rem;
     /* margin: 1% 2%; */
   }
   .heder-of-city-guidde {
