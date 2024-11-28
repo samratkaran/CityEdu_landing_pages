@@ -3,6 +3,7 @@ import Form from "./From/Form";
 import HeadText from "./HeadText/HeadText";
 import { Bounce, Fade } from "react-awesome-reveal";
 import { useState } from "react";
+import { Accordion } from "react-bootstrap";
 import Modal from "./Modal/Modal";
 import CourseCard from "./cards/CourseCard";
 import delhi from "../Assets/New Delhi Institute of Management..jpg"
@@ -215,10 +216,95 @@ The XAT 2025 exam, just 1.5 months away, is a key step in shaping your managemen
           </div>
         </div>
 
-        <HeadText value="Approvals and Accreditations" />
+        <HeadText value="Career Prospects after an MBA" />
+
+        <div className="row p-2 ">
+          <div class="col-md-12 ">
+            <h5
+              style={{ textAlign: "center", padding: "0% 2%" }}
+              className="col-md-11 m-auto pb-4 "
+            >
+The specialization you choose during your MBA journey mostly determines your MBA salary. Some top MBA specializations are Finance, Marketing, Business Analytics, General Management, and Entrepreneurship. In India, after an MBA the highest-paying positions range from INR 5 to 30 LPA. To mention a few, below are popular job options after an MBA along with their corresponding salaries
+            </h5>
+            <div class="Students-component  ">
+              <ul className="boxes-of-palcement d-flex justify-content-center gap-4 col-md-12">
+                <li class="c2" style={{ backgroundColor: "#a61a32" }}>
+                  {" "}
+                  <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
+                    <i class="fa fa-inr" aria-hidden="true"></i>₹ 5.9{" "}
+                    <small style={{ fontSize: "1.1rem !important" }}>LPA</small>
+                  </span>{" "}
+                  Marketing{" "}
+                </li>
+                <li class="c2" style={{ backgroundColor: "#034ea2" }}>
+                  {" "}
+                  <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
+                    <i class="fa fa-inr" aria-hidden="true"></i>₹ 7{" "}
+                    <small style={{ fontSize: "1.1rem !important" }}>LPA</small>
+                  </span>{" "}
+                  Finance{" "}
+                </li>
+                
+                <li class="c4" style={{ backgroundColor: "#00abe6" }}>
+                  {" "}
+                  <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
+                    <i class="fa fa-inr" aria-hidden="true"></i> ₹ 9.7{" "}
+                    <small style={{ fontSize: "1.1rem !important" }}>LPA</small>
+                  </span>{" "}
+                  Business Analytics{" "}
+                </li>
+                <li class="c4" style={{ backgroundColor: "#0011e6" }}>
+                  {" "}
+                  <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
+                    <i class="fa fa-inr" aria-hidden="true"></i> ₹ 10.8{" "}
+                    <small style={{ fontSize: "1.1rem !important" }}>LPA</small>
+                  </span>{" "}
+                  Operations Management{" "}
+                </li>
+                <li class="c4" style={{ backgroundColor: "#e60000" }}>
+                  {" "}
+                  <span style={{ fontSize: "2.5rem", fontWeight: 700 }}>
+                    <i class="fa fa-inr" aria-hidden="true"></i> ₹ 11{" "}
+                    <small style={{ fontSize: "1.1rem !important" }}>LPA</small>
+                  </span>{" "}
+                  Human Resource Management{" "}
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
         
 
-        {/* <HeadText value={"Ranks and Awards"} /> */}
+        <HeadText value={"Ranks and Awards"} />
+
+        <Accordion defaultActiveKey="0">
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
         {/* <div
           className="row d-flex justify-content-center align-items-center gap-5"
           style={{ flexWrap: "wrap" }}
