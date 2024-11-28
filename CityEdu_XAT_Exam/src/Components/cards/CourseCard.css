@@ -40,7 +40,7 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     width: 19rem !important;
-    height: 17rem;
+    height: 25rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -52,7 +52,7 @@
   }
 
   .course-card-main img {
-    width: 16rem !important;
+    width: 19rem !important;
     margin: auto;
     height: 15rem;
   }

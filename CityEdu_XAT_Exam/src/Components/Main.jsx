@@ -36,12 +36,10 @@ const Main = () => {
         </div>
       </Fade>
       <div className="main-container mb-5">
-        {/* <HeadText value={"overview"}></HeadText> */}
+        <HeadText value={"overview"}></HeadText>
         <div className="row main-overview-of-page">
-          <div className="col-md-4">
-
-          </div>
-          <div className="col-md-7 p-3">
+          
+          <div className="col-md-11">
             <p style={{fontSize:"1.1rem"}}>
             The XLRI Jamshedpur administers the XAT (Xavier Aptitude Test) a national-level entrance examination, conducted once a year to gain admission into MBA and PGDM programs at over 160 top B-schools across India. 
             <br /> <br />
@@ -141,11 +139,11 @@ The XAT 2025 exam, just 1.5 months away, is a key step in shaping your managemen
       </div>
       <HeadText value={"XAT Exam Pattern 2025"} />
         <div className="row">
-          <div className="col-md-11 m-auto">
+          <div className="col-md-11 m-auto p-2">
           <div className="xat-sections-container">
           <p>The format of the XAT exam changed. There won't be an essay writing section this year, and there will only be 20 questions in the GK section. The exam will last for 180 minutes. The exam schedule was released concurrently with the announcement of the modifications. The sectional information according to the XAT exam pattern 2025 is as follows:</p>
       <h2>XAT 2025 Exam Pattern</h2>
-      <table className="table table-bordered">
+      <table className="table table-bordered p-5">
         <thead>
           <tr style={{ backgroundColor: "#1E4D92", color: "white" }}>
             <th className="exam-date">Section</th>
@@ -195,7 +193,7 @@ The XAT 2025 exam, just 1.5 months away, is a key step in shaping your managemen
 
               <button
                 className="contact-button"
-                style={{ width: "14rem" }}
+                style={{ width: "14rem", height:"3rem" }}
                 onClick={() => setShow(true)}
               >
                 {" "}
@@ -206,30 +204,19 @@ The XAT 2025 exam, just 1.5 months away, is a key step in shaping your managemen
         </Bounce>
 
         <HeadText value="Top Colleges Accepting XAT Scores" />
-        <div className="row">
+        <div className="row p-2">
         <p className="col-md-11 m-auto mb-3">One of the most widely recognized test results in India is the XAT. Members of the Xavier Association of Management Institutes (XAMI) and more than 1,000 other MBA schools in India accept XAT scores in addition to XLRI, Jamshedpur. These colleges also use GD/WAT and PI in their admissions procedure. Given below are a few popular B-schools accepting XAT scores for admission:</p>
-          <div className="course-card">
-            <CourseCard CourseName={"MBA PGDM"} imageUrl={xlri}/>
-            <CourseCard/>
-            <CourseCard/>
-            <CourseCard/>
+          <div className="course-card col-md-11 ">
+            <CourseCard CourseName={"XLRI Xavier School of Management"} imageUrl={xlri}/>
+            <CourseCard CourseName={"St. Joseph's Institute of Management"} imageUrl={joseph}/>
+            <CourseCard CourseName={"BITS Pilani"} imageUrl={bits}/>
+            <CourseCard CourseName={"Woxsen University"} imageUrl={woxsen}/>
+            <CourseCard CourseName={"New Delhi Institute of Management"} imageUrl={delhi}/>
           </div>
         </div>
 
-        <HeadText value={"Campus Life"} />
-        <Fade delay={500} direction="left">
-          <div className="row main-campus-life">
-            
-          </div>
-        </Fade>
         <HeadText value="Approvals and Accreditations" />
-        <Fade delay={250}>
-          <div className="row main-approval-and-acredation">
-            <div className="col-md-12 approval-and-acredation">
-
-            </div>
-          </div>
-        </Fade>
+        
 
         {/* <HeadText value={"Ranks and Awards"} /> */}
         {/* <div
@@ -294,10 +281,4 @@ The XAT 2025 exam, just 1.5 months away, is a key step in shaping your managemen
 
 export default Main;
 
-// const [show, setShow] = useState(false);
 
-// {show ? <Modal cancel = {setShow}/> : null}
-
-// {
-//   /* <button onClick={() => setShow(true)}>Fuck you</button> */
-// }
