@@ -280,29 +280,32 @@ The specialization you choose during your MBA journey mostly determines your MBA
 
         <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        <Accordion.Header>Why should I take the XAT?</Accordion.Header>
+        <Accordion.Body>Applicants must take the Xavier Aptitude Test (XAT) to get admitted to prestigious B-schools for MBA programs. Along with the CAT, this MBA entrance exam is one of the best in the country. Additionally, more than 600 MBA schools will accept the exam results.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        <Accordion.Header>Does IIM allow XAT?</Accordion.Header>
+        <Accordion.Body>IIM does not accept the results of the XAT exam. Every year, IIMs administer the Common Admission Test (CAT), a national MBA entrance exam, to applicants to their MBA programs.
         </Accordion.Body>
       </Accordion.Item>
+      <Accordion.Item eventKey="2">
+        <Accordion.Header>Can I pass the XAT in 5 months?</Accordion.Header>
+        <Accordion.Body>If candidates thoroughly study the XAT syllabus and exam format and plan their preparation with practice exams, they can pass the exam in 5 months
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="3">
+        <Accordion.Header>What are the requirements to be eligible to apply for XAT 2025?</Accordion.Header>
+        <Accordion.Body>Candidates must have completed at least three years of study toward a bachelor's degree in any field from an accredited university to be eligible for XAT 2025. Students in their final year who are awaiting their results may also apply.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="4">
+        <Accordion.Header>Does the XAT exam have any negative marking?
+</Accordion.Header>
+        <Accordion.Body>Yes, except for the General Knowledge section, which has no negative marking, there is a negative marking of -0.25 for each incorrect answer and -0.10 for failing to answer more than eight consecutive questions.
+        </Accordion.Body>
+      </Accordion.Item>
+     
     </Accordion>
   );
         {/* <div
