@@ -205,7 +205,7 @@ The XAT 2025 exam, just 1.5 months away, is a key step in shaping your managemen
         </Bounce>
 
         <HeadText value="Top Colleges Accepting XAT Scores" />
-        <div className="row p-2">
+        <div className="row ">
         <p className="col-md-11 m-auto mb-3">One of the most widely recognized test results in India is the XAT. Members of the Xavier Association of Management Institutes (XAMI) and more than 1,000 other MBA schools in India accept XAT scores in addition to XLRI, Jamshedpur. These colleges also use GD/WAT and PI in their admissions procedure. Given below are a few popular B-schools accepting XAT scores for admission:</p>
           <div className="course-card col-md-11 ">
             <CourseCard CourseName={"XLRI Xavier School of Management"} imageUrl={xlri}/>
@@ -307,7 +307,7 @@ The specialization you choose during your MBA journey mostly determines your MBA
       </Accordion.Item>
      
     </Accordion>
-  );
+  
         {/* <div
           className="row d-flex justify-content-center align-items-center gap-5"
           style={{ flexWrap: "wrap" }}

@@ -9,7 +9,7 @@ const ModalForm = ({ cancel }) => {
     phone: "",
     course: "",
     location: "",
-    college: "SAPTAGIRI UNIVERSITY BANGALORE",
+    college: "xat-entrance-exam-admission-guidance",
   });
 
   const [showform, setShowForm] = useState(true);
@@ -63,13 +63,13 @@ const ModalForm = ({ cancel }) => {
                 textAlign: "right",
                 width: "90%",
                 cursor: "pointer",
-                color:"white"
+                color:"black"
               }}
               onClick={() => cancel(false)}
             >
               X
             </h2>
-            <h2 style={{ color: "white", textShadow: "1px 1px 1px black" }}>
+            <h2 style={{ color: "black", textShadow: "1px 1px 1px black" }}>
               Enquire Now
             </h2>
 
@@ -128,7 +128,7 @@ const ModalForm = ({ cancel }) => {
               required
             />
 
-            <button type="submit" class="btn btn-warning button-of-form">
+            <button type="submit" class="btn btn-primary button-of-form">
               Apply Now
             </button>
             <b>

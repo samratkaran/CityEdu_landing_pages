@@ -11,7 +11,7 @@
 }
 .modal-form-of-landing-page {
   width: 27rem;
-  background-color: #236eb0;
+  background-color: #ffffff;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@ button {
   }
   .modal-form-of-landing-page {
     width: 20rem;
-    background-color: #236eb0;
+    background-color: #ffffff;
     border-radius: 10px;
     display: flex;
     flex-direction: column;

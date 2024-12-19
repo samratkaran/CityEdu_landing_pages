@@ -9,7 +9,7 @@ const Form = () => {
     phone: "",
     course: "",
     location: "",
-    college: "SAPTAGIRI UNIVERSITY BANGALORE",
+    college: "xat-entrance-exam-admission-guidance",
   });
 
   const [showform, setShowForm] = useState(true);
